@@ -10,7 +10,11 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "card_style": "standard",
-    "card_color_scheme": "background-2",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-1",
+    "card_corner_radius": 10,
+    "card_shadow_opacity": 25,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
