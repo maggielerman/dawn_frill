@@ -43,6 +43,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -96,37 +97,36 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
-        "video": {
-          "type": "video",
+        "508b7867-60e4-4184-955a-d61040e90650": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/il_fullxfull.3256197092_3ps3.jpg",
+            "image_padding": true,
+            "color_scheme": "background-1"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "papillon-butterfly-print-set-no-12-set-of-9-vintage-butterfly-prints-home-decor-wall-art-unframed",
             "second_image": true
           }
         },
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "curated-gallery-walls"
           }
         }
       },
       "block_order": [
-        "video",
+        "508b7867-60e4-4184-955a-d61040e90650",
         "product",
         "collection"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Curated Gallery Walls",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "padding_top": 36,
