@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Curated Gallery Walls",
-            "heading_size": "medium"
+            "heading_size": "large"
           }
         },
         "button": {
@@ -31,7 +31,7 @@
         "image_2": "shopify:\/\/shop_images\/il_fullxfull.3307000682_cqdf.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
