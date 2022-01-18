@@ -394,7 +394,6 @@ h5,
 
 h1,
 .h1 {
-  text-align: center;
   font-size: calc(var(--font-heading-scale) * 3rem);
 }
 
@@ -407,6 +406,7 @@ h1,
 
 h2,
 .h2 {
+  text-align: center; 
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
