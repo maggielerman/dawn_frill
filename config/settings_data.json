@@ -64,26 +64,26 @@
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
+          "832723f5-5203-425d-b4b0-36f1f09dee0f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shipping & Returns",
+              "menu": "footer"
+            }
+          },
           "fd77ce6c-282b-44c6-993a-ece9692f1025": {
             "type": "link_list",
             "settings": {
               "heading": "Legal",
               "menu": "policies"
             }
-          },
-          "832723f5-5203-425d-b4b0-36f1f09dee0f": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Support",
-              "menu": "contact"
-            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "fd77ce6c-282b-44c6-993a-ece9692f1025",
-          "832723f5-5203-425d-b4b0-36f1f09dee0f"
+          "832723f5-5203-425d-b4b0-36f1f09dee0f",
+          "fd77ce6c-282b-44c6-993a-ece9692f1025"
         ],
         "settings": {
           "color_scheme": "accent-1",
