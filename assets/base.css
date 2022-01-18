@@ -2056,10 +2056,12 @@ input[type='checkbox'] {
 }
 
 .header__heading-link:hover .h2 {
+  text-align: center; 
   color: rgb(var(--color-foreground));
 }
 
 .header__heading-link .h2 {
+  text-align: center; 
   line-height: 1;
   color: rgba(var(--color-foreground), 0.75);
 }
