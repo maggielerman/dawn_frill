@@ -70,12 +70,20 @@
               "heading": "Legal",
               "menu": "policies"
             }
+          },
+          "832723f5-5203-425d-b4b0-36f1f09dee0f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "contact"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "fd77ce6c-282b-44c6-993a-ece9692f1025"
+          "fd77ce6c-282b-44c6-993a-ece9692f1025",
+          "832723f5-5203-425d-b4b0-36f1f09dee0f"
         ],
         "settings": {
           "color_scheme": "accent-1",
