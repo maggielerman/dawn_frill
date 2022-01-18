@@ -45,8 +45,6 @@
 }
 
 .collection-hero__title + .collection-hero__description {
-  text-align: center;
-
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
