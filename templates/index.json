@@ -107,41 +107,77 @@
         "padding_bottom": 36
       }
     },
-    "1642544857cba51189": {
-      "type": "rich-text",
+    "1642544865bd3a23a3": {
+      "type": "featured-product",
       "blocks": {
-        "16425448576f355a1d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Henri",
-            "heading_size": "h1"
-          }
-        },
-        "16425448576f355a1d-1": {
+        "164254486521c8844d-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
           }
         },
-        "16425448576f355a1d-2": {
-          "type": "button",
+        "164254486521c8844d-1": {
+          "type": "title",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+          }
+        },
+        "164254486521c8844d-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "164254486521c8844d-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "164254486521c8844d-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "164254486521c8844d-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "164254486521c8844d-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "164254486521c8844d-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "16425448576f355a1d-0",
-        "16425448576f355a1d-1",
-        "16425448576f355a1d-2"
+        "164254486521c8844d-0",
+        "164254486521c8844d-1",
+        "164254486521c8844d-2",
+        "164254486521c8844d-3",
+        "164254486521c8844d-4",
+        "164254486521c8844d-5",
+        "164254486521c8844d-6",
+        "164254486521c8844d-7"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "product": "henri-matisse-wall-art-blue-nude-ii-art-print-blue-nude-1952-minimalist-blue-poster-pantone-color-of-the-year-2020-wall-art-print",
+        "secondary_background": true,
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -150,6 +186,6 @@
     "collage",
     "featured_products",
     "video",
-    "1642544857cba51189"
+    "1642544865bd3a23a3"
   ]
 }
