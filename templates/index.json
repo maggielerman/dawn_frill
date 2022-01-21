@@ -44,13 +44,13 @@
         "1642769144aaeae633-1"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "wall art from featured artists"
       }
     },
     "1642769036ee43e0aa": {
