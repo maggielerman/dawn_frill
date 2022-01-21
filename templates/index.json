@@ -53,47 +53,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Time for a Wall Refresh?",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Art Prints & Posters",
-            "button_link_1": "shopify:\/\/collections\/wall-art",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
-        "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1642769036ee43e0aa": {
       "type": "rich-text",
       "blocks": {
@@ -176,6 +135,47 @@
         "padding_bottom": 36
       }
     },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Time for a Wall Refresh?",
+            "heading_size": "medium"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Art Prints & Posters",
+            "button_link_1": "shopify:\/\/collections\/wall-art",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
+        "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1642544865bd3a23a3": {
       "type": "featured-product",
       "disabled": true,
@@ -249,14 +249,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1642776788c50489a9": {
+      "type": "newsletter",
+      "blocks": {
+        "16427767889efc018d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16427767889efc018d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16427767889efc018d-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16427767889efc018d-0",
+        "16427767889efc018d-1",
+        "16427767889efc018d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "1642769144fd72d1dd",
-    "image_banner",
     "1642769036ee43e0aa",
     "collage",
     "featured_products",
-    "1642544865bd3a23a3"
+    "image_banner",
+    "1642544865bd3a23a3",
+    "1642776788c50489a9"
   ]
 }
