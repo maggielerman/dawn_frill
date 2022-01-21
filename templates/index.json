@@ -41,6 +41,34 @@
         "show_text_below": true
       }
     },
+    "1642769036ee43e0aa": {
+      "type": "rich-text",
+      "blocks": {
+        "1642769036ab5301d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Curated Gallery Walls",
+            "heading_size": "h1"
+          }
+        },
+        "1642769036ab5301d0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop our  selection of carefully curated gallery walls.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642769036ab5301d0-0",
+        "1642769036ab5301d0-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -183,6 +211,7 @@
   },
   "order": [
     "image_banner",
+    "1642769036ee43e0aa",
     "collage",
     "featured_products",
     "video",
