@@ -29,13 +29,13 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
         "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
