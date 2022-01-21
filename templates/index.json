@@ -207,6 +207,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1642769144fd72d1dd": {
+      "type": "slideshow",
+      "blocks": {
+        "1642769144aaeae633-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WKY008-SeveralCircles1926ArtPoster_ROOM_1100x_bffb7f6b-a1ff-435b-85b7-f1bc4bd7decc.jpg",
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1642769144aaeae633-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1642769144aaeae633-0",
+        "1642769144aaeae633-1"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -215,6 +268,7 @@
     "collage",
     "featured_products",
     "video",
-    "1642544865bd3a23a3"
+    "1642544865bd3a23a3",
+    "1642769144fd72d1dd"
   ]
 }
