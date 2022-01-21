@@ -6,15 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Curated Gallery Walls",
-            "heading_size": "large"
+            "heading": "Time for a Wall Refresh?",
+            "heading_size": "medium"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Shop Art Prints & Posters",
+            "button_link_1": "shopify:\/\/collections\/wall-art",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -27,12 +27,12 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/il_fullxfull.3301073305_6cxf.jpg",
-        "image_2": "shopify:\/\/shop_images\/il_fullxfull.3307000682_cqdf.jpg",
+        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
+        "image_2": "shopify:\/\/shop_images\/FAS027-LesGorgerettesn2byCharlesMartin_ROOM_550x_b7f71428-706c-45fe-baed-0ee906189ba9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
