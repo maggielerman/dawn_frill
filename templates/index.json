@@ -3,6 +3,24 @@
     "1642769144fd72d1dd": {
       "type": "slideshow",
       "blocks": {
+        "1642769144aaeae633-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GW095-BAUHAUS-ART005.ART007.ART003.ART006.ART002.jpg",
+            "heading": "Image slide",
+            "heading_size": "small",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "1642769144aaeae633-0": {
           "type": "slide",
           "settings": {
@@ -12,16 +30,16 @@
             "subheading": "Art Prints and Posters",
             "button_label": "Shop All",
             "link": "shopify:\/\/collections\/wall-art",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         },
-        "1642769144aaeae633-1": {
+        "5a115f22-09c9-4f6b-91aa-6af9aad2f42d": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -40,8 +58,9 @@
         }
       },
       "block_order": [
+        "1642769144aaeae633-1",
         "1642769144aaeae633-0",
-        "1642769144aaeae633-1"
+        "5a115f22-09c9-4f6b-91aa-6af9aad2f42d"
       ],
       "settings": {
         "layout": "full_bleed",
