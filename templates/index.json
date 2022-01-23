@@ -113,17 +113,17 @@
         "1642769144aaeae633-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
-            "heading": "Time for a Wall Refresh?",
+            "image": "shopify:\/\/shop_images\/MCH024-OakLeavesbyAlphonseMucha_ROOM_1100x_a2989f48-787e-44d3-870b-81df4fee01d3.jpg",
+            "heading": "Art Nouveau",
             "heading_size": "medium",
-            "subheading": "Art Prints and Posters",
-            "button_label": "Shop All",
-            "link": "shopify:\/\/collections\/wall-art",
-            "button_style_secondary": true,
+            "subheading": "",
+            "button_label": "Shop Collection",
+            "link": "shopify:\/\/collections\/art-nouveau",
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 30,
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
@@ -132,10 +132,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/GW095-BAUHAUS-ART005.ART007.ART003.ART006.ART002.jpg",
-            "heading": "Wassily Kandinsky",
-            "heading_size": "small",
+            "heading": "Modern",
+            "heading_size": "medium",
             "subheading": "",
-            "button_label": "Shop Collection",
+            "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/wassily-kandinsky",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -149,16 +149,17 @@
         "5a115f22-09c9-4f6b-91aa-6af9aad2f42d": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/JAP069_BambooandrisingsunbyUtagawaKunimaru_Livingroom.jpg",
+            "heading": "Asian Inspired",
             "heading_size": "medium",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/japanese-art",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
