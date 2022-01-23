@@ -34,7 +34,7 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
@@ -68,7 +68,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "wall art from featured artists"
       }
     },
