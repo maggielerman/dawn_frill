@@ -41,9 +41,74 @@
         "show_text_below": true
       }
     },
+    "1642769036ee43e0aa": {
+      "type": "rich-text",
+      "blocks": {
+        "1642769036ab5301d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Curated Gallery Walls",
+            "heading_size": "h1"
+          }
+        },
+        "1642769036ab5301d0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop our  selection of carefully curated gallery walls.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642769036ab5301d0-0",
+        "1642769036ab5301d0-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "508b7867-60e4-4184-955a-d61040e90650": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/il_fullxfull.3256197092_3ps3.jpg",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "papillon-butterfly-print-set-no-12-set-of-9-vintage-butterfly-prints-home-decor-wall-art-unframed",
+            "second_image": true
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "curated-gallery-walls"
+          }
+        }
+      },
+      "block_order": [
+        "508b7867-60e4-4184-955a-d61040e90650",
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1642769144fd72d1dd": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1642769144aaeae633-0": {
           "type": "slide",
@@ -112,72 +177,6 @@
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": "wall art from featured artists"
-      }
-    },
-    "1642769036ee43e0aa": {
-      "type": "rich-text",
-      "blocks": {
-        "1642769036ab5301d0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Curated Gallery Walls",
-            "heading_size": "h1"
-          }
-        },
-        "1642769036ab5301d0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shop our  selection of carefully curated gallery walls.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1642769036ab5301d0-0",
-        "1642769036ab5301d0-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "508b7867-60e4-4184-955a-d61040e90650": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3256197092_3ps3.jpg",
-            "image_padding": true,
-            "color_scheme": "background-1"
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "papillon-butterfly-print-set-no-12-set-of-9-vintage-butterfly-prints-home-decor-wall-art-unframed",
-            "second_image": true
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "curated-gallery-walls"
-          }
-        }
-      },
-      "block_order": [
-        "508b7867-60e4-4184-955a-d61040e90650",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "featured_products": {
@@ -306,9 +305,9 @@
   },
   "order": [
     "image_banner",
-    "1642769144fd72d1dd",
     "1642769036ee43e0aa",
     "collage",
+    "1642769144fd72d1dd",
     "featured_products",
     "1642544865bd3a23a3",
     "1642776788c50489a9"
