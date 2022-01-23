@@ -138,7 +138,7 @@
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/wassily-kandinsky",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
+            "box_align": "bottom-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 30,
