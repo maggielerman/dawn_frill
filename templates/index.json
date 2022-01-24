@@ -286,14 +286,14 @@
         "164303523927b4a2aa-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Henri Émile Benoît Matisse December 31 1869 – November 3 1954) was a French draughtsman, printmaker, and sculptor. Known for his use of color, he is best remembered as a painter.<\/p><p><\/p><p>Matisse is commonly regarded, along with Pablo Picasso, as one of the artists who best helped to define the revolutionary developments in the visual arts throughout the opening decades of the twentieth century, responsible for significant developments in painting and sculpture<\/p>",
             "text_style": "body"
           }
         },
         "164303523927b4a2aa-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "View Art by Henri Matisse",
             "button_link": ""
           }
         }
