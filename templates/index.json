@@ -192,9 +192,8 @@
         },
         "1643034731d385b111-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>From cl<\/p>",
+            "text": "<p>Egon Schiele (June 12 1890 – Octobe 31r 1918) was an Austrian expressionist painter. He was protégé of Gustav Klimt and blossomed one of the major figurative painters of the early 20th century. <\/p><p><\/p><p>Schiele's work is noted for its intensity and its raw sexuality, and the many self-portraits the artist produced, including nude self-portraits.<\/p>",
             "text_style": "body"
           }
         },
@@ -212,6 +211,7 @@
         "1643034731d385b111-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/SCH014-CrouchingNudeinShoesandBlackStockingsEgonSchiele_FRAME.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
