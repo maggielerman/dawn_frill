@@ -22,6 +22,9 @@
     "text_boxes_border_opacity": 0,
     "text_boxes_radius": 0,
     "text_boxes_shadow_horizontal_offset": 0,
+    "social_facebook_link": "https:\/\/www.facebook.com\/hellofrill",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/hellofrill",
+    "social_instagram_link": "https:\/\/www.instagram.com\/shop.frill\/",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
