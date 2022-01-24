@@ -180,6 +180,50 @@
         "accessibility_info": "wall art from featured artists"
       }
     },
+    "1643034731bb4551c6": {
+      "type": "image-with-text",
+      "blocks": {
+        "1643034731d385b111-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured Artist: Egon Schiele",
+            "heading_size": "h1"
+          }
+        },
+        "1643034731d385b111-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>From cl<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1643034731d385b111-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/egon-schiele"
+          }
+        }
+      },
+      "block_order": [
+        "1643034731d385b111-0",
+        "1643034731d385b111-1",
+        "1643034731d385b111-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -192,80 +236,6 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1642544865bd3a23a3": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "164254486521c8844d-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "164254486521c8844d-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "164254486521c8844d-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "164254486521c8844d-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "164254486521c8844d-4": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "164254486521c8844d-5": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "164254486521c8844d-6": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "164254486521c8844d-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "164254486521c8844d-0",
-        "164254486521c8844d-1",
-        "164254486521c8844d-2",
-        "164254486521c8844d-3",
-        "164254486521c8844d-4",
-        "164254486521c8844d-5",
-        "164254486521c8844d-6",
-        "164254486521c8844d-7"
-      ],
-      "settings": {
-        "product": "henri-matisse-wall-art-blue-nude-ii-art-print-blue-nude-1952-minimalist-blue-poster-pantone-color-of-the-year-2020-wall-art-print",
-        "secondary_background": true,
-        "hide_variants": true,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -309,8 +279,8 @@
     "1642769036ee43e0aa",
     "collage",
     "1642769144fd72d1dd",
+    "1643034731bb4551c6",
     "featured_products",
-    "1642544865bd3a23a3",
     "1642776788c50489a9"
   ]
 }
