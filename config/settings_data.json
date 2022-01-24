@@ -25,6 +25,10 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/hellofrill",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/hellofrill",
     "social_instagram_link": "https:\/\/www.instagram.com\/shop.frill\/",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Rectangle_8_2_4f5e2f10-d494-4b2f-bde7-8a7d2eb421be.png",
+    "checkout_body_background_color": "#ebebeb",
+    "checkout_accent_color": "#4869ff",
+    "checkout_button_color": "#4869ff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
