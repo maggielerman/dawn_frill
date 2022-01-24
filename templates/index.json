@@ -227,8 +227,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Henri Matisse",
-        "collection": "henri-matisse",
+        "title": "",
+        "collection": "egon-schiele",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
