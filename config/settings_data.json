@@ -44,10 +44,9 @@
           },
           "c950c89f-3b91-4151-9745-0066577c1c8c": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "FREE SHIPPING ON ORDERS OF $50 OR MORE",
+              "color_scheme": "inverse",
               "link": ""
             }
           },
