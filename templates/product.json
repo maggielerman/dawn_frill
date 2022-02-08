@@ -52,6 +52,16 @@
           "type": "description",
           "settings": {
           }
+        },
+        "593f82fc-6761-4c03-9714-33b1e161972b": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "perfume",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -63,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "description"
+        "description",
+        "593f82fc-6761-4c03-9714-33b1e161972b"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -80,6 +91,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
