@@ -14,9 +14,6 @@ jobs:
           store: ${{ secrets.SHOP_STORE }}
           password: ${{ secrets.SHOP_PASSWORD }}
           lhci_github_token: ${{ secrets.LHCI_GITHUB_TOKEN }}
-      - name: Image Optimizer
-        uses: crush-pics/crush-pics-github-action@v1.0
-
   theme-check:
     name: Theme Check
     runs-on: ubuntu-latest
