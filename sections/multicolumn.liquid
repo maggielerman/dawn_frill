@@ -4,8 +4,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
-    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -16,10 +16,10 @@
   }
 {%- endstyle -%}
 
-<div class="multicolumn{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
-  <div class="page-width section-{{ section.id }}-padding">
+<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width section-{{ section.id }}-padding isolate">
     {% unless section.settings.title == blank %}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
         <h2 class="title">
           {{ section.settings.title | escape }}
         </h2>
@@ -29,7 +29,7 @@
       </div>
     {% endunless %}
     <slider-component class="slider-mobile-gutter">
-      <ul class="multicolumn-list grid grid--1-col{% if section.blocks.size > 3 and section.settings.image_width != 'full' %} grid--2-col-tablet grid--4-col-desktop{% elsif section.blocks.size > 3 and section.settings.image_width == 'full' %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile grid--peek{% endif %}"
+      <ul class="multicolumn-list contains-content-container grid grid--1-col{% if section.blocks.size > 3 and section.settings.image_width != 'full' %} grid--2-col-tablet grid--4-col-desktop{% elsif section.blocks.size > 3 and section.settings.image_width == 'full' %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile grid--peek{% endif %}"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -54,6 +54,7 @@
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}>
                     <img
+                      class="multicolumn-card__image"
                       srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | img_url: '275x' }} 275w,{%- endif -%}
                         {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
                         {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | img_url: '710x' }} 710w,{%- endif -%}
@@ -193,10 +194,6 @@
         {
           "value": "primary",
           "label": "t:sections.multicolumn.settings.background_style.options__2.label"
-        },
-        {
-          "value": "secondary",
-          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
         }
       ],
       "default": "primary",
@@ -218,6 +215,34 @@
       "id": "swipe_on_mobile",
       "default": false,
       "label": "t:sections.multicolumn.settings.swipe_on_mobile.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
     },
     {
       "type": "header",

@@ -160,13 +160,7 @@
       "name": "Esquema",
       "settings": {
         "page_width": {
-          "label": "Largura da página",
-          "options__1": {
-            "label": "1200 px"
-          },
-          "options__2": {
-            "label": "1600 px"
-          }
+          "label": "Largura da página"
         },
         "spacing_sections": {
           "label": "Espaço vertical entre secções"
@@ -300,11 +294,11 @@
           },
           "label": "Posição do cartão de produto"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "Esquema de cor do selo de venda"
         },
-        "badge_sold_out_color_scheme": {
-          "label": "Cor de esquema de selo esgotado"
+        "sold_out_badge_color_scheme": {
+          "label": "Esquema de cor do selo de esgotado"
         }
       }
     },
@@ -312,7 +306,7 @@
       "name": "Botões"
     },
     "variant_pills": {
-      "name": "Variante de comprimidos"
+      "name": "Variantes com forma de comprimidos"
     },
     "inputs": {
       "name": "Entradas"
@@ -337,6 +331,26 @@
         "section_padding_heading": "Secção preenchimento",
         "padding_top": "Preenchimento superior",
         "padding_bottom": "Preenchimento inferior"
+      },
+      "spacing": "Espaçamento",
+      "colors": {
+        "accent_1": {
+          "label": "Destaque 1"
+        },
+        "accent_2": {
+          "label": "Destaque 2"
+        },
+        "background_1": {
+          "label": "Fundo 1"
+        },
+        "background_2": {
+          "label": "Fundo 2"
+        },
+        "inverse": {
+          "label": "Invertido"
+        },
+        "label": "Esquema de cores",
+        "has_cards_info": "Para alterar o esquema de cores do cartão, atualize as suas definições de tema."
       }
     },
     "announcement-bar": {
@@ -405,27 +419,8 @@
               "label": "Imagem"
             },
             "image_padding": {
-              "label": "Adicionar preenchimento de imagem",
-              "info": "Selecione o preenchimento de imagem caso não pretenda que a sua imagem seja cortada."
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "Destaque 1"
-              },
-              "options__2": {
-                "label": "Destaque 2"
-              },
-              "options__3": {
-                "label": "Fundo 1"
-              },
-              "options__4": {
-                "label": "Fundo 2"
-              },
-              "options__5": {
-                "label": "Inverter"
-              },
-              "label": "Esquema de cores",
-              "info": "Selecione o preenchimento de imagem para tornar a cor visível."
+              "label": "Utilizar proporção da imagem original",
+              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             }
           },
           "name": "Imagem"
@@ -463,8 +458,8 @@
               "placeholder": "Usar um URL de YouTube ou Vimeo"
             },
             "image_padding": {
-              "label": "Adicionar preenchimento de imagem",
-              "info": "Selecione um preenchimento de imagem se não quer que a sua imagem de capa seja cortada."
+              "label": "Utilizar proporção da imagem original",
+              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             },
             "description": {
               "label": "Texto alternativo do vídeo",
@@ -554,9 +549,6 @@
         "show_image": {
           "label": "Mostrar imagem em destaque",
           "info": "Para obter os melhores resultados, use uma imagem com uma proporção de 3:2. [Saber mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        },
-        "soft_background": {
-          "label": "Mostrar fundo secundário"
         },
         "show_date": {
           "label": "Mostrar data"
@@ -704,6 +696,9 @@
         },
         "payment_enable": {
           "label": "Mostrar ícones de pagamento"
+        },
+        "margin_top": {
+          "label": "Margem superior"
         }
       }
     },
@@ -757,6 +752,9 @@
             "label": "Inverter"
           },
           "label": "Esquema de cores"
+        },
+        "margin_bottom": {
+          "label": "Margem inferior"
         }
       }
     },
@@ -959,8 +957,7 @@
           "options__3": {
             "label": "Grande"
           },
-          "label": "Altura da imagem",
-          "info": "Determina a altura da secção."
+          "label": "Altura da imagem"
         },
         "color_scheme": {
           "options__1": {
@@ -1082,9 +1079,6 @@
               },
               "options__2": {
                 "label": "Legenda"
-              },
-              "options__3": {
-                "label": "Maiúsculas"
               }
             }
           },
@@ -1454,7 +1448,7 @@
                 "label": "Pendente"
               },
               "options__2": {
-                "label": "Botão"
+                "label": "Comprimidos"
               }
             }
           },
@@ -1501,72 +1495,132 @@
                 "label": "Nenhum"
               },
               "options__2": {
-                "label": "Caixa"
+                "label": "Maçã"
               },
               "options__3": {
-                "label": "Bolha de conversa"
+                "label": "Banana"
               },
               "options__4": {
-                "label": "Marca de verificação"
+                "label": "Garrafa"
               },
               "options__5": {
-                "label": "Secador"
+                "label": "Caixa"
               },
               "options__6": {
-                "label": "Olho"
+                "label": "Cenoura"
               },
               "options__7": {
-                "label": "Coração"
+                "label": "Bolha de conversa"
               },
               "options__8": {
-                "label": "Ferro"
+                "label": "Marca de verificação"
               },
               "options__9": {
-                "label": "Folha"
+                "label": "Prancheta"
               },
               "options__10": {
-                "label": "Couro"
+                "label": "Produtos lácteos"
               },
               "options__11": {
-                "label": "Cadeado"
+                "label": "Sem produtos lácteos"
               },
               "options__12": {
-                "label": "Marcador de mapa"
+                "label": "Secador"
               },
               "options__13": {
-                "label": "Calças"
+                "label": "Olho"
               },
               "options__14": {
-                "label": "Avião"
+                "label": "Fogo"
               },
               "options__15": {
-                "label": "Etiqueta de preço"
+                "label": "Sem glúten"
               },
               "options__16": {
-                "label": "Ponto de interrogação"
+                "label": "Coração"
               },
               "options__17": {
-                "label": "Voltar"
+                "label": "Ferro"
               },
               "options__18": {
-                "label": "Régua"
+                "label": "Folha"
               },
               "options__19": {
-                "label": "Camisa"
+                "label": "Couro"
               },
               "options__20": {
-                "label": "Sapato"
+                "label": "Relâmpago"
               },
               "options__21": {
-                "label": "Silhueta"
+                "label": "Batom"
               },
               "options__22": {
-                "label": "Estrela"
+                "label": "Cadeado"
               },
               "options__23": {
-                "label": "Camião"
+                "label": "Marcador de mapa"
               },
               "options__24": {
+                "label": "Sem frutos de casca rija"
+              },
+              "options__25": {
+                "label": "Calças"
+              },
+              "options__26": {
+                "label": "Marca de pata"
+              },
+              "options__27": {
+                "label": "Pimenta"
+              },
+              "options__28": {
+                "label": "Perfume"
+              },
+              "options__29": {
+                "label": "Avião"
+              },
+              "options__30": {
+                "label": "Planta"
+              },
+              "options__31": {
+                "label": "Etiqueta de preço"
+              },
+              "options__32": {
+                "label": "Ponto de interrogação"
+              },
+              "options__33": {
+                "label": "Reciclar"
+              },
+              "options__34": {
+                "label": "Devolução"
+              },
+              "options__35": {
+                "label": "Régua"
+              },
+              "options__36": {
+                "label": "Prato"
+              },
+              "options__37": {
+                "label": "Camisa"
+              },
+              "options__38": {
+                "label": "Sapato"
+              },
+              "options__39": {
+                "label": "Silhueta"
+              },
+              "options__40": {
+                "label": "Floco de neve"
+              },
+              "options__41": {
+                "label": "Estrela"
+              },
+              "options__42": {
+                "label": "Cronómetro"
+              },
+              "options__43": {
+                "label": "Camião"
+              },
+              "options__44": {
                 "label": "Lavar"
               }
             }
@@ -1755,9 +1809,6 @@
           },
           "options__2": {
             "label": "Mostrar como fundo da coluna"
-          },
-          "options__3": {
-            "label": "Mostrar como fundo da secção"
           }
         },
         "button_label": {
@@ -2051,7 +2102,7 @@
                 "label": "Pendente"
               },
               "options__2": {
-                "label": "Botão"
+                "label": "Forma de comprimidos"
               }
             }
           }
@@ -2309,102 +2360,14 @@
             "label": "Números"
           }
         },
-        "heading_size": {
-          "label": "Tamanho do tipo de letra do título",
-          "options__1": {
-            "label": "Médio"
-          },
-          "options__2": {
-            "label": "Grande"
-          }
-        },
-        "box_align": {
-          "label": "Posição do conteúdo no desktop",
-          "options__1": {
-            "label": "Canto superior esquerdo"
-          },
-          "options__2": {
-            "label": "Superior centro"
-          },
-          "options__3": {
-            "label": "Canto superior direito"
-          },
-          "options__4": {
-            "label": "Intermédio à esquerda"
-          },
-          "options__5": {
-            "label": "Intermédio ao centro"
-          },
-          "options__6": {
-            "label": "Intermédio à direita"
-          },
-          "options__7": {
-            "label": "Canto inferior esquerdo"
-          },
-          "options__8": {
-            "label": "Inferior centro"
-          },
-          "options__9": {
-            "label": "Canto inferior direito"
-          }
-        },
-        "show_text_box": {
-          "label": "Mostrar recetores no desktop"
-        },
-        "text_alignment": {
-          "label": "Alinhamento do conteúdo no desktop",
-          "option_1": {
-            "label": "Esquerda"
-          },
-          "option_2": {
-            "label": "Ao centro"
-          },
-          "option_3": {
-            "label": "Direita"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Opacidade da sobreposição da imagem"
-        },
         "auto_rotate": {
           "label": "Rotação automática de diapositivos"
         },
         "change_slides_speed": {
           "label": "Mudar diapositivos a cada"
         },
-        "color_scheme": {
-          "label": "Esquema de cores da caixa",
-          "info": "Visível quando o recetor é exibido.",
-          "options__1": {
-            "label": "Destaque 1"
-          },
-          "options__2": {
-            "label": "Destaque 2"
-          },
-          "options__3": {
-            "label": "Fundo 1"
-          },
-          "options__4": {
-            "label": "Fundo 2"
-          },
-          "options__5": {
-            "label": "Inverter"
-          }
-        },
         "mobile": {
           "content": "Esquema móvel"
-        },
-        "text_alignment_mobile": {
-          "label": "Alinhamento do conteúdo em dispositivos móveis",
-          "options__1": {
-            "label": "Esquerda"
-          },
-          "options__2": {
-            "label": "Ao centro"
-          },
-          "options__3": {
-            "label": "Direita"
-          }
         },
         "show_text_below": {
           "label": "Mostrar conteúdo abaixo das imagens em dispositivos móveis"
@@ -2659,72 +2622,132 @@
                 "label": "Nenhum"
               },
               "options__2": {
-                "label": "Apartado"
+                "label": "Maçã"
               },
               "options__3": {
-                "label": "Bolha de conversa"
+                "label": "Banana"
               },
               "options__4": {
-                "label": "Marca de verificação"
+                "label": "Garrafa"
               },
               "options__5": {
-                "label": "Secador"
+                "label": "Caixa"
               },
               "options__6": {
-                "label": "Olho"
+                "label": "Cenoura"
               },
               "options__7": {
-                "label": "Coração"
+                "label": "Bolha de conversa"
               },
               "options__8": {
-                "label": "Ferro"
+                "label": "Marca de verificação"
               },
               "options__9": {
-                "label": "Folha"
+                "label": "Prancheta"
               },
               "options__10": {
-                "label": "Couro"
+                "label": "Produtos lácteos"
               },
               "options__11": {
-                "label": "Cadeado"
+                "label": "Sem produtos lácteos"
               },
               "options__12": {
-                "label": "Marcador de mapa"
+                "label": "Secador"
               },
               "options__13": {
-                "label": "Calças"
+                "label": "Olho"
               },
               "options__14": {
-                "label": "Avião"
+                "label": "Fogo"
               },
               "options__15": {
-                "label": "Etiqueta de preço"
+                "label": "Sem glúten"
               },
               "options__16": {
-                "label": "Ponto de interrogação"
+                "label": "Coração"
               },
               "options__17": {
-                "label": "Devolução"
+                "label": "Ferro"
               },
               "options__18": {
-                "label": "Régua"
+                "label": "Folha"
               },
               "options__19": {
-                "label": "Camisa"
+                "label": "Couro"
               },
               "options__20": {
-                "label": "Sapato"
+                "label": "Relâmpago"
               },
               "options__21": {
-                "label": "Silhueta"
+                "label": "Batom"
               },
               "options__22": {
-                "label": "Estrela"
+                "label": "Cadeado"
               },
               "options__23": {
-                "label": "Camião"
+                "label": "Marcador de mapa"
               },
               "options__24": {
+                "label": "Sem frutos de casca rija"
+              },
+              "options__25": {
+                "label": "Calças"
+              },
+              "options__26": {
+                "label": "Marca de pata"
+              },
+              "options__27": {
+                "label": "Pimenta"
+              },
+              "options__28": {
+                "label": "Perfume"
+              },
+              "options__29": {
+                "label": "Avião"
+              },
+              "options__30": {
+                "label": "Planta"
+              },
+              "options__31": {
+                "label": "Etiqueta de preço"
+              },
+              "options__32": {
+                "label": "Ponto de interrogação"
+              },
+              "options__33": {
+                "label": "Reciclar"
+              },
+              "options__34": {
+                "label": "Devolução"
+              },
+              "options__35": {
+                "label": "Régua"
+              },
+              "options__36": {
+                "label": "Prato"
+              },
+              "options__37": {
+                "label": "Camisa"
+              },
+              "options__38": {
+                "label": "Sapato"
+              },
+              "options__39": {
+                "label": "Silhueta"
+              },
+              "options__40": {
+                "label": "Floco de neve"
+              },
+              "options__41": {
+                "label": "Estrela"
+              },
+              "options__42": {
+                "label": "Cronómetro"
+              },
+              "options__43": {
+                "label": "Camião"
+              },
+              "options__44": {
                 "label": "Lavar"
               }
             }

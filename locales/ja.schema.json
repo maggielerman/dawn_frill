@@ -160,13 +160,7 @@
       "name": "レイアウト",
       "settings": {
         "page_width": {
-          "label": "ページの幅",
-          "options__1": {
-            "label": "1200ピクセル"
-          },
-          "options__2": {
-            "label": "1600ピクセル"
-          }
+          "label": "ページの幅"
         },
         "spacing_sections": {
           "label": "セクション間の垂直スペース"
@@ -300,10 +294,10 @@
           },
           "label": "商品カードの位置"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "販売バッジの配色"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "完売バッジの配色"
         }
       }
@@ -312,7 +306,7 @@
       "name": "ボタン"
     },
     "variant_pills": {
-      "name": "バリエーションピル"
+      "name": "バリエーションのピル型ボタン"
     },
     "inputs": {
       "name": "入力"
@@ -337,6 +331,26 @@
         "section_padding_heading": "セクションの余白",
         "padding_top": "上部の余白",
         "padding_bottom": "下部の余白"
+      },
+      "spacing": "間隔",
+      "colors": {
+        "accent_1": {
+          "label": "アクセント1"
+        },
+        "accent_2": {
+          "label": "アクセント2"
+        },
+        "background_1": {
+          "label": "背景1"
+        },
+        "background_2": {
+          "label": "背景2"
+        },
+        "inverse": {
+          "label": "反転"
+        },
+        "label": "配色",
+        "has_cards_info": "カードの配色を変更するには、テーマ設定を更新してください。"
       }
     },
     "announcement-bar": {
@@ -405,27 +419,8 @@
               "label": "画像"
             },
             "image_padding": {
-              "label": "画像の余白を追加する",
-              "info": "画像をトリミングしたくない場合は、画像の余白を選択します。"
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "アクセント1"
-              },
-              "options__2": {
-                "label": "アクセント2"
-              },
-              "options__3": {
-                "label": "背景1"
-              },
-              "options__4": {
-                "label": "背景2"
-              },
-              "options__5": {
-                "label": "反転"
-              },
-              "label": "配色",
-              "info": "色が見えるように画像の余白を選択します。"
+              "label": "元の画像比を使用する",
+              "info": "画像をトリミングしたくない場合は選択します。"
             }
           },
           "name": "画像"
@@ -463,8 +458,8 @@
               "placeholder": "YouTubeやVimeoのURLを使う"
             },
             "image_padding": {
-              "label": "画像の余白を追加する",
-              "info": "カバー画像をトリミングしたくない場合は、画像の余白を選択します。"
+              "label": "元の画像比を使用する",
+              "info": "画像をトリミングしたくない場合は選択します。"
             },
             "description": {
               "label": "動画の代替テキスト",
@@ -554,9 +549,6 @@
         "show_image": {
           "label": "記事のサムネイルを表示する",
           "info": "画像のアスペクト比が3:2のものを使用すると最適です。[詳しくはこちら](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        },
-        "soft_background": {
-          "label": "サブ背景を表示する"
         },
         "show_date": {
           "label": "日付を表示する"
@@ -704,6 +696,9 @@
         },
         "payment_enable": {
           "label": "決済アイコンを表示する"
+        },
+        "margin_top": {
+          "label": "上マージン"
         }
       }
     },
@@ -757,6 +752,9 @@
             "label": "反転"
           },
           "label": "配色"
+        },
+        "margin_bottom": {
+          "label": "下マージン"
         }
       }
     },
@@ -959,8 +957,7 @@
           "options__3": {
             "label": "大"
           },
-          "label": "画像の高さ",
-          "info": "セクションの高さを決めます。"
+          "label": "画像の高さ"
         },
         "color_scheme": {
           "options__1": {
@@ -1451,7 +1448,7 @@
                 "label": "ドロップダウン"
               },
               "options__2": {
-                "label": "ボタン"
+                "label": "ピル型ボタン"
               }
             }
           },
@@ -1498,72 +1495,132 @@
                 "label": "なし"
               },
               "options__2": {
-                "label": "箱"
+                "label": "リンゴ"
               },
               "options__3": {
-                "label": "チャットバブル"
+                "label": "バナナ"
               },
               "options__4": {
-                "label": "チェックマーク"
+                "label": "ボトル"
               },
               "options__5": {
-                "label": "ドライヤー"
+                "label": "ボックス"
               },
               "options__6": {
-                "label": "目"
+                "label": "ニンジン"
               },
               "options__7": {
-                "label": "ハート"
+                "label": "チャットバブル"
               },
               "options__8": {
-                "label": "アイロン"
+                "label": "チェックマーク"
               },
               "options__9": {
-                "label": "葉"
+                "label": "クリップボード"
               },
               "options__10": {
-                "label": "革製品"
+                "label": "乳製品"
               },
               "options__11": {
-                "label": "ロック"
+                "label": "乳製品不使用"
               },
               "options__12": {
-                "label": "マップピン"
+                "label": "ドライヤー"
               },
               "options__13": {
-                "label": "パンツ"
+                "label": "目"
               },
               "options__14": {
-                "label": "飛行機"
+                "label": "ファイヤー"
               },
               "options__15": {
-                "label": "値札"
+                "label": "グルテン不使用"
               },
               "options__16": {
-                "label": "疑問符"
+                "label": "ハート"
               },
               "options__17": {
-                "label": "返品"
+                "label": "アイロン"
               },
               "options__18": {
-                "label": "定規"
+                "label": "葉"
               },
               "options__19": {
-                "label": "シャツ"
+                "label": "革製品"
               },
               "options__20": {
-                "label": "靴"
+                "label": "稲妻"
               },
               "options__21": {
-                "label": "シルエット"
+                "label": "リップスティック"
               },
               "options__22": {
-                "label": "星"
+                "label": "ロック"
               },
               "options__23": {
-                "label": "トラック"
+                "label": "マップピン"
               },
               "options__24": {
+                "label": "ナッツ類不使用"
+              },
+              "options__25": {
+                "label": "パンツ"
+              },
+              "options__26": {
+                "label": "肉球プリント"
+              },
+              "options__27": {
+                "label": "こしょう"
+              },
+              "options__28": {
+                "label": "香水"
+              },
+              "options__29": {
+                "label": "飛行機"
+              },
+              "options__30": {
+                "label": "植物"
+              },
+              "options__31": {
+                "label": "値札"
+              },
+              "options__32": {
+                "label": "疑問符"
+              },
+              "options__33": {
+                "label": "リサイクル"
+              },
+              "options__34": {
+                "label": "返品"
+              },
+              "options__35": {
+                "label": "定規"
+              },
+              "options__36": {
+                "label": "取り皿"
+              },
+              "options__37": {
+                "label": "シャツ"
+              },
+              "options__38": {
+                "label": "靴"
+              },
+              "options__39": {
+                "label": "シルエット"
+              },
+              "options__40": {
+                "label": "雪片"
+              },
+              "options__41": {
+                "label": "星"
+              },
+              "options__42": {
+                "label": "ストップウォッチ"
+              },
+              "options__43": {
+                "label": "トラック"
+              },
+              "options__44": {
                 "label": "洗濯"
               }
             }
@@ -1752,9 +1809,6 @@
           },
           "options__2": {
             "label": "列の背景を表示する"
-          },
-          "options__3": {
-            "label": "セクションの背景を表示する"
           }
         },
         "button_label": {
@@ -2048,7 +2102,7 @@
                 "label": "ドロップダウン"
               },
               "options__2": {
-                "label": "ボタン"
+                "label": "ピル型ボタン"
               }
             }
           }
@@ -2568,72 +2622,132 @@
                 "label": "なし"
               },
               "options__2": {
-                "label": "ボックス"
+                "label": "リンゴ"
               },
               "options__3": {
-                "label": "チャットバブル"
+                "label": "バナナ"
               },
               "options__4": {
-                "label": "チェックマーク"
+                "label": "ボトル"
               },
               "options__5": {
-                "label": "ドライヤー"
+                "label": "ボックス"
               },
               "options__6": {
-                "label": "目"
+                "label": "ニンジン"
               },
               "options__7": {
-                "label": "ハート"
+                "label": "チャットバブル"
               },
               "options__8": {
-                "label": "アイロン"
+                "label": "チェックマーク"
               },
               "options__9": {
-                "label": "葉"
+                "label": "クリップボード"
               },
               "options__10": {
-                "label": "革製品"
+                "label": "乳製品"
               },
               "options__11": {
-                "label": "ロック"
+                "label": "乳製品不使用"
               },
               "options__12": {
-                "label": "マップピン"
+                "label": "ドライヤー"
               },
               "options__13": {
-                "label": "パンツ・ズボン"
+                "label": "目"
               },
               "options__14": {
-                "label": "飛行機"
+                "label": "ファイヤー"
               },
               "options__15": {
-                "label": "値札"
+                "label": "グルテン不使用"
               },
               "options__16": {
-                "label": "疑問符"
+                "label": "ハート"
               },
               "options__17": {
-                "label": "返品"
+                "label": "アイロン"
               },
               "options__18": {
-                "label": "定規"
+                "label": "葉"
               },
               "options__19": {
-                "label": "シャツ"
+                "label": "革製品"
               },
               "options__20": {
-                "label": "靴"
+                "label": "稲妻"
               },
               "options__21": {
-                "label": "シルエット"
+                "label": "リップスティック"
               },
               "options__22": {
-                "label": "星"
+                "label": "ロック"
               },
               "options__23": {
-                "label": "トラック"
+                "label": "マップピン"
               },
               "options__24": {
+                "label": "ナッツ類不使用"
+              },
+              "options__25": {
+                "label": "パンツ"
+              },
+              "options__26": {
+                "label": "肉球プリント"
+              },
+              "options__27": {
+                "label": "こしょう"
+              },
+              "options__28": {
+                "label": "香水"
+              },
+              "options__29": {
+                "label": "飛行機"
+              },
+              "options__30": {
+                "label": "植物"
+              },
+              "options__31": {
+                "label": "値札"
+              },
+              "options__32": {
+                "label": "疑問符"
+              },
+              "options__33": {
+                "label": "リサイクル"
+              },
+              "options__34": {
+                "label": "返品"
+              },
+              "options__35": {
+                "label": "定規"
+              },
+              "options__36": {
+                "label": "取り皿"
+              },
+              "options__37": {
+                "label": "シャツ"
+              },
+              "options__38": {
+                "label": "靴"
+              },
+              "options__39": {
+                "label": "シルエット"
+              },
+              "options__40": {
+                "label": "雪片"
+              },
+              "options__41": {
+                "label": "星"
+              },
+              "options__42": {
+                "label": "ストップウォッチ"
+              },
+              "options__43": {
+                "label": "トラック"
+              },
+              "options__44": {
                 "label": "洗濯"
               }
             }

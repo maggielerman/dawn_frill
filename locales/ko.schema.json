@@ -160,13 +160,7 @@
       "name": "레이아웃",
       "settings": {
         "page_width": {
-          "label": "페이지 너비",
-          "options__1": {
-            "label": "1200px"
-          },
-          "options__2": {
-            "label": "1600px"
-          }
+          "label": "페이지 너비"
         },
         "spacing_sections": {
           "label": "단면 사이의 수직 공백"
@@ -300,10 +294,10 @@
           },
           "label": "제품 카드 위치"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "할인 배지 색상 체계"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "품절 배지 색상 체계"
         }
       }
@@ -312,7 +306,7 @@
       "name": "버튼"
     },
     "variant_pills": {
-      "name": "이형 상품 필"
+      "name": "이형 상품 타원형"
     },
     "inputs": {
       "name": "입력"
@@ -337,6 +331,26 @@
         "section_padding_heading": "섹션 패딩",
         "padding_top": "상단 패딩",
         "padding_bottom": "하단 패딩"
+      },
+      "spacing": "간격",
+      "colors": {
+        "accent_1": {
+          "label": "강조 1"
+        },
+        "accent_2": {
+          "label": "강조 2"
+        },
+        "background_1": {
+          "label": "배경 1"
+        },
+        "background_2": {
+          "label": "배경 2"
+        },
+        "inverse": {
+          "label": "서로 바꾸기"
+        },
+        "label": "색상 배합",
+        "has_cards_info": "카드 색상 배합을 변경하려면 테마 설정을 업데이트하십시오."
       }
     },
     "announcement-bar": {
@@ -405,27 +419,8 @@
               "label": "이미지"
             },
             "image_padding": {
-              "label": "이미지 패딩 추가",
-              "info": "이미지가 잘리는 것을 방지하려면 이미지 패딩을 선택하십시오."
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "강조 1"
-              },
-              "options__2": {
-                "label": "강조 2"
-              },
-              "options__3": {
-                "label": "배경 1"
-              },
-              "options__4": {
-                "label": "배경 2"
-              },
-              "options__5": {
-                "label": "서로 바꾸기"
-              },
-              "label": "색상 배합",
-              "info": "색상이 보이도록 하려면 이미지 패딩을 선택하십시오."
+              "label": "원본 이미지 비율 사용",
+              "info": "이미지가 잘리는 것을 방지하려면 선택하십시오."
             }
           },
           "name": "이미지"
@@ -463,8 +458,8 @@
               "placeholder": "YouTube 또는 Vimeo URL 사용"
             },
             "image_padding": {
-              "label": "이미지 패딩 추가",
-              "info": "이미지가 잘리는 것을 방지하려면 이미지 패딩을 선택하십시오."
+              "label": "원본 이미지 비율 사용",
+              "info": "이미지가 잘리는 것을 방지하려면 선택하십시오."
             },
             "description": {
               "label": "동영상 대체 텍스트",
@@ -554,9 +549,6 @@
         "show_image": {
           "label": "추천 이미지 표시",
           "info": "최고의 결과를 얻으려면 이미지의 가로 세로 비율을 3:2로 사용하십시오. [자세히 알아보기](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        },
-        "soft_background": {
-          "label": "보조 배경 표시"
         },
         "show_date": {
           "label": "날짜 표시"
@@ -704,6 +696,9 @@
         },
         "payment_enable": {
           "label": "결제 아이콘 표시"
+        },
+        "margin_top": {
+          "label": "상단 마진"
         }
       }
     },
@@ -757,6 +752,9 @@
             "label": "서로 바꾸기"
           },
           "label": "색상 배합"
+        },
+        "margin_bottom": {
+          "label": "하단 마진"
         }
       }
     },
@@ -959,8 +957,7 @@
           "options__3": {
             "label": "크게"
           },
-          "label": "이미지 높이",
-          "info": "섹션 높이를 결정합니다."
+          "label": "이미지 높이"
         },
         "color_scheme": {
           "options__1": {
@@ -1082,9 +1079,6 @@
               },
               "options__2": {
                 "label": "소제목"
-              },
-              "options__3": {
-                "label": "대문자"
               }
             }
           },
@@ -1454,7 +1448,7 @@
                 "label": "드롭다운"
               },
               "options__2": {
-                "label": "버튼"
+                "label": "타원형"
               }
             }
           },
@@ -1501,72 +1495,132 @@
                 "label": "없음"
               },
               "options__2": {
-                "label": "상자"
+                "label": "사과"
               },
               "options__3": {
-                "label": "채팅 말풍선"
+                "label": "바나나"
               },
               "options__4": {
-                "label": "확인 표시"
+                "label": "병"
               },
               "options__5": {
-                "label": "드라이어"
+                "label": "상자"
               },
               "options__6": {
-                "label": "눈"
+                "label": "당근"
               },
               "options__7": {
-                "label": "하트"
+                "label": "채팅 말풍선"
               },
               "options__8": {
-                "label": "강철"
+                "label": "확인 표시"
               },
               "options__9": {
-                "label": "나뭇잎"
+                "label": "클립보드"
               },
               "options__10": {
-                "label": "가죽"
+                "label": "유제품"
               },
               "options__11": {
-                "label": "바위"
+                "label": "유제품 무첨가"
               },
               "options__12": {
-                "label": "지도 핀 표시"
+                "label": "드라이어"
               },
               "options__13": {
-                "label": "바지"
+                "label": "눈"
               },
               "options__14": {
-                "label": "비행기"
+                "label": "파이어"
               },
               "options__15": {
-                "label": "가격표"
+                "label": "글루텐 프리"
               },
               "options__16": {
-                "label": "물음표"
+                "label": "하트"
               },
               "options__17": {
-                "label": "되돌아가기"
+                "label": "강철"
               },
               "options__18": {
-                "label": "자"
+                "label": "나뭇잎"
               },
               "options__19": {
-                "label": "셔츠"
+                "label": "가죽"
               },
               "options__20": {
-                "label": "신발"
+                "label": "번개 표시"
               },
               "options__21": {
-                "label": "실루엣"
+                "label": "립스틱"
               },
               "options__22": {
-                "label": "별"
+                "label": "자물쇠"
               },
               "options__23": {
-                "label": "트럭"
+                "label": "지도 핀 표시"
               },
               "options__24": {
+                "label": "너트 프리"
+              },
+              "options__25": {
+                "label": "바지"
+              },
+              "options__26": {
+                "label": "발자국"
+              },
+              "options__27": {
+                "label": "후추"
+              },
+              "options__28": {
+                "label": "향수"
+              },
+              "options__29": {
+                "label": "비행기"
+              },
+              "options__30": {
+                "label": "화훼"
+              },
+              "options__31": {
+                "label": "가격표"
+              },
+              "options__32": {
+                "label": "물음표"
+              },
+              "options__33": {
+                "label": "재활용"
+              },
+              "options__34": {
+                "label": "되돌아가기"
+              },
+              "options__35": {
+                "label": "자"
+              },
+              "options__36": {
+                "label": "서빙용 접시"
+              },
+              "options__37": {
+                "label": "셔츠"
+              },
+              "options__38": {
+                "label": "신발"
+              },
+              "options__39": {
+                "label": "실루엣"
+              },
+              "options__40": {
+                "label": "스노우플레이크"
+              },
+              "options__41": {
+                "label": "별"
+              },
+              "options__42": {
+                "label": "스톱워치"
+              },
+              "options__43": {
+                "label": "트럭"
+              },
+              "options__44": {
                 "label": "씻기"
               }
             }
@@ -1755,9 +1809,6 @@
           },
           "options__2": {
             "label": "열의 배경으로 표시"
-          },
-          "options__3": {
-            "label": "섹션의 배경으로 표시"
           }
         },
         "button_label": {
@@ -2051,7 +2102,7 @@
                 "label": "드롭다운"
               },
               "options__2": {
-                "label": "버튼"
+                "label": "타원형"
               }
             }
           }
@@ -2309,102 +2360,14 @@
             "label": "번호"
           }
         },
-        "heading_size": {
-          "label": "제목 글꼴 크기",
-          "options__1": {
-            "label": "보통"
-          },
-          "options__2": {
-            "label": "크게"
-          }
-        },
-        "box_align": {
-          "label": "데스크톱 콘텐츠 위치",
-          "options__1": {
-            "label": "왼쪽 상단"
-          },
-          "options__2": {
-            "label": "가운데 상단"
-          },
-          "options__3": {
-            "label": "오른쪽 상단"
-          },
-          "options__4": {
-            "label": "왼쪽 중간"
-          },
-          "options__5": {
-            "label": "가운데 중간"
-          },
-          "options__6": {
-            "label": "오른쪽 중간"
-          },
-          "options__7": {
-            "label": "왼쪽 하단"
-          },
-          "options__8": {
-            "label": "가운데 하단"
-          },
-          "options__9": {
-            "label": "오른쪽 하단"
-          }
-        },
-        "show_text_box": {
-          "label": "데스크톱에 컨테이너 표시"
-        },
-        "text_alignment": {
-          "label": "데스크톱 콘텐츠 정렬",
-          "option_1": {
-            "label": "왼쪽"
-          },
-          "option_2": {
-            "label": "가운데"
-          },
-          "option_3": {
-            "label": "오른쪽"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "이미지 오버레이 투명도"
-        },
         "auto_rotate": {
           "label": "슬라이드 자동 회전"
         },
         "change_slides_speed": {
           "label": "슬라이드를 매번 변경"
         },
-        "color_scheme": {
-          "label": "상자 색상 배합",
-          "info": "컨테이너가 표시될 때 볼 수 있습니다.",
-          "options__1": {
-            "label": "강조 1"
-          },
-          "options__2": {
-            "label": "강조 2"
-          },
-          "options__3": {
-            "label": "배경 1"
-          },
-          "options__4": {
-            "label": "배경 2"
-          },
-          "options__5": {
-            "label": "서로 바꾸기"
-          }
-        },
         "mobile": {
           "content": "모바일 레이아웃"
-        },
-        "text_alignment_mobile": {
-          "label": "모바일 콘텐츠 정렬",
-          "options__1": {
-            "label": "왼쪽"
-          },
-          "options__2": {
-            "label": "가운데"
-          },
-          "options__3": {
-            "label": "오른쪽"
-          }
         },
         "show_text_below": {
           "label": "모바일에서 이미지 아래에 콘텐츠 표시"
@@ -2433,8 +2396,7 @@
               "info": "버튼을 숨기려면 레이블을 비워 둡니다."
             },
             "link": {
-              "label": "버튼 링크",
-              "info": "버튼을 숨기려면 레이블을 비워 둡니다."
+              "label": "버튼 링크"
             },
             "secondary_style": {
               "label": "윤곽 버튼 스타일 사용"
@@ -2660,72 +2622,132 @@
                 "label": "없음"
               },
               "options__2": {
-                "label": "상자"
+                "label": "사과"
               },
               "options__3": {
-                "label": "채팅 말풍선"
+                "label": "바나나"
               },
               "options__4": {
-                "label": "확인 표시"
+                "label": "병"
               },
               "options__5": {
-                "label": "드라이어"
+                "label": "상자"
               },
               "options__6": {
-                "label": "눈"
+                "label": "당근"
               },
               "options__7": {
-                "label": "하트"
+                "label": "채팅 말풍선"
               },
               "options__8": {
-                "label": "강철"
+                "label": "확인 표시"
               },
               "options__9": {
-                "label": "나뭇잎"
+                "label": "클립보드"
               },
               "options__10": {
-                "label": "가죽"
+                "label": "유제품"
               },
               "options__11": {
-                "label": "바위"
+                "label": "유제품 무첨가"
               },
               "options__12": {
-                "label": "지도 핀 표시"
+                "label": "드라이어"
               },
               "options__13": {
-                "label": "바지"
+                "label": "눈"
               },
               "options__14": {
-                "label": "비행기"
+                "label": "파이어"
               },
               "options__15": {
-                "label": "가격표"
+                "label": "글루텐 프리"
               },
               "options__16": {
-                "label": "물음표"
+                "label": "하트"
               },
               "options__17": {
-                "label": "되돌아가기"
+                "label": "강철"
               },
               "options__18": {
-                "label": "자"
+                "label": "나뭇잎"
               },
               "options__19": {
-                "label": "셔츠"
+                "label": "가죽"
               },
               "options__20": {
-                "label": "신발"
+                "label": "번개 표시"
               },
               "options__21": {
-                "label": "실루엣"
+                "label": "립스틱"
               },
               "options__22": {
-                "label": "별"
+                "label": "자물쇠"
               },
               "options__23": {
-                "label": "트럭"
+                "label": "지도 핀 표시"
               },
               "options__24": {
+                "label": "너트 프리"
+              },
+              "options__25": {
+                "label": "바지"
+              },
+              "options__26": {
+                "label": "발자국"
+              },
+              "options__27": {
+                "label": "후추"
+              },
+              "options__28": {
+                "label": "향수"
+              },
+              "options__29": {
+                "label": "비행기"
+              },
+              "options__30": {
+                "label": "화훼"
+              },
+              "options__31": {
+                "label": "가격표"
+              },
+              "options__32": {
+                "label": "물음표"
+              },
+              "options__33": {
+                "label": "재활용"
+              },
+              "options__34": {
+                "label": "되돌아가기"
+              },
+              "options__35": {
+                "label": "자"
+              },
+              "options__36": {
+                "label": "서빙용 접시"
+              },
+              "options__37": {
+                "label": "셔츠"
+              },
+              "options__38": {
+                "label": "신발"
+              },
+              "options__39": {
+                "label": "실루엣"
+              },
+              "options__40": {
+                "label": "스노우플레이크"
+              },
+              "options__41": {
+                "label": "별"
+              },
+              "options__42": {
+                "label": "스톱워치"
+              },
+              "options__43": {
+                "label": "트럭"
+              },
+              "options__44": {
                 "label": "씻기"
               }
             }

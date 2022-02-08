@@ -160,13 +160,7 @@
       "name": "Rozvržení",
       "settings": {
         "page_width": {
-          "label": "Šířka stránky",
-          "options__1": {
-            "label": "1 200 px"
-          },
-          "options__2": {
-            "label": "1 600 px"
-          }
+          "label": "Šířka stránky"
         },
         "spacing_sections": {
           "label": "Mezera ve svislém směru mezi sekcemi"
@@ -300,10 +294,10 @@
           },
           "label": "Pozice karty produktu"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "Barevné schéma odznaku Sleva"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "Barevné schéma odznaku Vyprodáno"
         }
       }
@@ -337,6 +331,26 @@
         "section_padding_heading": "Vnitřní okraj sekce",
         "padding_top": "Horní vnitřní okraj",
         "padding_bottom": "Dolní vnitřní okraj"
+      },
+      "spacing": "Rozestupy",
+      "colors": {
+        "accent_1": {
+          "label": "Zvýraznění 1"
+        },
+        "accent_2": {
+          "label": "Zvýraznění 2"
+        },
+        "background_1": {
+          "label": "Pozadí 1"
+        },
+        "background_2": {
+          "label": "Pozadí 2"
+        },
+        "inverse": {
+          "label": "Inverze"
+        },
+        "label": "Barevné schéma",
+        "has_cards_info": "Pokud chcete změnit barevné schéma karty, aktualizujte nastavení motivu."
       }
     },
     "announcement-bar": {
@@ -406,27 +420,8 @@
               "label": "Obrázek"
             },
             "image_padding": {
-              "label": "Přidat vnitřní okraj obrázku",
-              "info": "Pokud nechcete, aby došlo k oříznutí obrázku, vyberte u něj vnitřní okraj."
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "Zvýraznění 1"
-              },
-              "options__2": {
-                "label": "Zvýraznění 2"
-              },
-              "options__3": {
-                "label": "Pozadí 1"
-              },
-              "options__4": {
-                "label": "Pozadí 2"
-              },
-              "options__5": {
-                "label": "Inverze"
-              },
-              "label": "Barevné schéma",
-              "info": "Vyberte vnitřní okraj obrázku, aby se zobrazila barva."
+              "label": "Použít původní poměr obrázku",
+              "info": "Tuto možnost vyberte, pokud nechcete, aby došlo k oříznutí obrázku."
             }
           }
         },
@@ -464,8 +459,8 @@
               "placeholder": "Zadejte adresu URL z YouTube nebo Vimea"
             },
             "image_padding": {
-              "label": "Přidat vnitřní okraj obrázku",
-              "info": "Pokud nechcete, aby došlo k oříznutí vašeho titulního obrázku, vyberte u něj vnitřní okraj."
+              "label": "Použít původní poměr obrázku",
+              "info": "Tuto možnost vyberte, pokud nechcete, aby došlo k oříznutí obrázku."
             },
             "description": {
               "label": "Alternativní text videa",
@@ -554,9 +549,6 @@
         "show_image": {
           "label": "Zobrazit propagovaný obrázek",
           "info": "Nejlepších výsledků dosáhnete použitím obrázku s poměrem stran 3:2. [Zjistit více](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        },
-        "soft_background": {
-          "label": "Zobrazit sekundární pozadí"
         },
         "show_date": {
           "label": "Zobrazit datum"
@@ -704,6 +696,9 @@
         },
         "payment_enable": {
           "label": "Zobrazit ikony plateb"
+        },
+        "margin_top": {
+          "label": "Horní okraj"
         }
       }
     },
@@ -757,6 +752,9 @@
             "label": "Inverze"
           },
           "label": "Barevné schéma"
+        },
+        "margin_bottom": {
+          "label": "Dolní okraj"
         }
       }
     },
@@ -959,8 +957,7 @@
           "options__3": {
             "label": "Velká"
           },
-          "label": "Výška obrázku",
-          "info": "Určuje výšku sekce."
+          "label": "Výška obrázku"
         },
         "color_scheme": {
           "options__1": {
@@ -1461,7 +1458,7 @@
                 "label": "Rozevírací nabídka"
               },
               "options__2": {
-                "label": "Tlačítko"
+                "label": "Kulaté přepínače"
               }
             }
           }
@@ -1514,72 +1511,132 @@
                 "label": "Žádná"
               },
               "options__2": {
-                "label": "Krabice"
+                "label": "Jablko"
               },
               "options__3": {
-                "label": "Bublina chatu"
+                "label": "Banán"
               },
               "options__4": {
-                "label": "Zatržítko"
+                "label": "Láhev"
               },
               "options__5": {
-                "label": "Sušička"
+                "label": "Krabice"
               },
               "options__6": {
-                "label": "Oko"
+                "label": "Mrkev"
               },
               "options__7": {
-                "label": "Srdce"
+                "label": "Bublina chatu"
               },
               "options__8": {
-                "label": "Žehlička"
+                "label": "Zatržítko"
               },
               "options__9": {
-                "label": "List"
+                "label": "Psací podložka s klipem"
               },
               "options__10": {
-                "label": "Kůže"
+                "label": "Mléčný produkt"
               },
               "options__11": {
-                "label": "Zámek"
+                "label": "Bez mléka"
               },
               "options__12": {
-                "label": "Špendlík na mapě"
+                "label": "Sušička"
               },
               "options__13": {
-                "label": "Kalhoty"
+                "label": "Oko"
               },
               "options__14": {
-                "label": "Letadlo"
+                "label": "Oheň"
               },
               "options__15": {
-                "label": "Cenovka"
+                "label": "Bezlepkový produkt"
               },
               "options__16": {
-                "label": "Otazník"
+                "label": "Srdce"
               },
               "options__17": {
-                "label": "Vrácení"
+                "label": "Žehlička"
               },
               "options__18": {
-                "label": "Pravítko"
+                "label": "List"
               },
               "options__19": {
-                "label": "Košile"
+                "label": "Kůže"
               },
               "options__20": {
-                "label": "Bota"
+                "label": "Blesk"
               },
               "options__21": {
-                "label": "Silueta"
+                "label": "Rtěnka"
               },
               "options__22": {
-                "label": "Hvězdička"
+                "label": "Zámek"
               },
               "options__23": {
-                "label": "Nákladní vůz"
+                "label": "Špendlík na mapě"
               },
               "options__24": {
+                "label": "Bez ořechů"
+              },
+              "options__25": {
+                "label": "Kalhoty"
+              },
+              "options__26": {
+                "label": "Otisk tlapky"
+              },
+              "options__27": {
+                "label": "Pepř"
+              },
+              "options__28": {
+                "label": "Parfém"
+              },
+              "options__29": {
+                "label": "Letadlo"
+              },
+              "options__30": {
+                "label": "Rostlina"
+              },
+              "options__31": {
+                "label": "Cenovka"
+              },
+              "options__32": {
+                "label": "Otazník"
+              },
+              "options__33": {
+                "label": "Recyklace"
+              },
+              "options__34": {
+                "label": "Vrácení"
+              },
+              "options__35": {
+                "label": "Pravítko"
+              },
+              "options__36": {
+                "label": "Servírovací mísa"
+              },
+              "options__37": {
+                "label": "Košile"
+              },
+              "options__38": {
+                "label": "Bota"
+              },
+              "options__39": {
+                "label": "Silueta"
+              },
+              "options__40": {
+                "label": "Sněhová vločka"
+              },
+              "options__41": {
+                "label": "Hvězdička"
+              },
+              "options__42": {
+                "label": "Stopky"
+              },
+              "options__43": {
+                "label": "Nákladní vůz"
+              },
+              "options__44": {
                 "label": "Praní"
               }
             }
@@ -1752,9 +1809,6 @@
           },
           "options__2": {
             "label": "Zobrazit jako pozadí sloupce"
-          },
-          "options__3": {
-            "label": "Zobrazit jako pozadí sekce"
           }
         },
         "button_label": {
@@ -2048,7 +2102,7 @@
                 "label": "Rozevírací nabídka"
               },
               "options__2": {
-                "label": "Tlačítko"
+                "label": "Kulaté přepínače"
               }
             }
           }
@@ -2568,72 +2622,132 @@
                 "label": "Žádná"
               },
               "options__2": {
-                "label": "Krabice"
+                "label": "Jablko"
               },
               "options__3": {
-                "label": "Bublina chatu"
+                "label": "Banán"
               },
               "options__4": {
-                "label": "Zatržítko"
+                "label": "Láhev"
               },
               "options__5": {
-                "label": "Sušička"
+                "label": "Krabice"
               },
               "options__6": {
-                "label": "Oko"
+                "label": "Mrkev"
               },
               "options__7": {
-                "label": "Srdce"
+                "label": "Bublina chatu"
               },
               "options__8": {
-                "label": "Žehlička"
+                "label": "Zatržítko"
               },
               "options__9": {
-                "label": "List"
+                "label": "Psací podložka s klipem"
               },
               "options__10": {
-                "label": "Kůže"
+                "label": "Mléčný produkt"
               },
               "options__11": {
-                "label": "Zámek"
+                "label": "Bez mléka"
               },
               "options__12": {
-                "label": "Špendlík na mapě"
+                "label": "Sušička"
               },
               "options__13": {
-                "label": "Kalhoty"
+                "label": "Oko"
               },
               "options__14": {
-                "label": "Letadlo"
+                "label": "Oheň"
               },
               "options__15": {
-                "label": "Cenovka"
+                "label": "Bezlepkový produkt"
               },
               "options__16": {
-                "label": "Otazník"
+                "label": "Srdce"
               },
               "options__17": {
-                "label": "Vrácení"
+                "label": "Žehlička"
               },
               "options__18": {
-                "label": "Pravítko"
+                "label": "List"
               },
               "options__19": {
-                "label": "Košile"
+                "label": "Kůže"
               },
               "options__20": {
-                "label": "Bota"
+                "label": "Blesk"
               },
               "options__21": {
-                "label": "Silueta"
+                "label": "Rtěnka"
               },
               "options__22": {
-                "label": "Hvězdička"
+                "label": "Zámek"
               },
               "options__23": {
-                "label": "Nákladní vůz"
+                "label": "Špendlík na mapě"
               },
               "options__24": {
+                "label": "Bez ořechů"
+              },
+              "options__25": {
+                "label": "Kalhoty"
+              },
+              "options__26": {
+                "label": "Otisk tlapky"
+              },
+              "options__27": {
+                "label": "Pepř"
+              },
+              "options__28": {
+                "label": "Parfém"
+              },
+              "options__29": {
+                "label": "Letadlo"
+              },
+              "options__30": {
+                "label": "Rostlina"
+              },
+              "options__31": {
+                "label": "Cenovka"
+              },
+              "options__32": {
+                "label": "Otazník"
+              },
+              "options__33": {
+                "label": "Recyklace"
+              },
+              "options__34": {
+                "label": "Vrácení"
+              },
+              "options__35": {
+                "label": "Pravítko"
+              },
+              "options__36": {
+                "label": "Servírovací mísa"
+              },
+              "options__37": {
+                "label": "Košile"
+              },
+              "options__38": {
+                "label": "Bota"
+              },
+              "options__39": {
+                "label": "Silueta"
+              },
+              "options__40": {
+                "label": "Sněhová vločka"
+              },
+              "options__41": {
+                "label": "Hvězdička"
+              },
+              "options__42": {
+                "label": "Stopky"
+              },
+              "options__43": {
+                "label": "Nákladní vůz"
+              },
+              "options__44": {
                 "label": "Praní"
               }
             }

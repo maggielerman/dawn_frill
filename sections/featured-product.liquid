@@ -7,8 +7,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
-    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -30,9 +30,9 @@
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-<section{% if section.settings.secondary_background %} class="background-secondary"{% endif %}>
-  <div class="page-width section-{{ section.id }}-padding">
-    <div class="featured-product product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+<section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
+  <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
+    <div class="featured-product product grid grid--1-col gradient color-{{ section.settings.color_scheme }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         <media-gallery id="MediaGallery-{{ section.id }}" role="region" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="stacked">
           <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
@@ -81,6 +81,8 @@
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
+            {%- when '@app' -%}
+              {% render block %}
             {%- when 'text' -%}
               <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
                 {{- block.settings.text -}}
@@ -116,7 +118,7 @@
                 </div>
               {%- endif -%}
             {%- when 'quantity_selector' -%}
-              <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
+              <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
                 <label class="form__label" for="Quantity-{{ section.id }}">
                   {{ 'products.product.quantity.label' | t }}
                 </label>
@@ -496,6 +498,9 @@
   "class": "section section-featured-product",
   "blocks": [
     {
+      "type": "@app"
+    },
+    {
       "type": "text",
       "name": "t:sections.featured-product.blocks.text.name",
       "settings": [
@@ -628,6 +633,34 @@
       "type": "product",
       "id": "product",
       "label": "t:sections.featured-product.settings.product.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
     },
     {
       "type": "checkbox",

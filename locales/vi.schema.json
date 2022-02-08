@@ -160,13 +160,7 @@
       "name": "Bố cục",
       "settings": {
         "page_width": {
-          "label": "Chiều rộng trang",
-          "options__1": {
-            "label": "1200 px"
-          },
-          "options__2": {
-            "label": "1600 px"
-          }
+          "label": "Chiều rộng trang"
         },
         "spacing_sections": {
           "label": "Không gian dọc giữa các mục"
@@ -300,10 +294,10 @@
           },
           "label": "Vị trí thẻ sản phẩm"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "Bảng màu huy hiệu giảm giá"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "Bảng màu huy hiệu đã hết hàng"
         }
       }
@@ -337,6 +331,26 @@
         "section_padding_heading": "Vùng đệm mục",
         "padding_top": "Vùng đệm trên cùng",
         "padding_bottom": "Vùng đệm dưới cùng"
+      },
+      "spacing": "Khoảng cách",
+      "colors": {
+        "accent_1": {
+          "label": "Điểm nhấn 1"
+        },
+        "accent_2": {
+          "label": "Điểm nhấn 2"
+        },
+        "background_1": {
+          "label": "Nền 1"
+        },
+        "background_2": {
+          "label": "Nền 2"
+        },
+        "inverse": {
+          "label": "Nghịch đảo"
+        },
+        "label": "Bảng màu",
+        "has_cards_info": "Hãy cập nhật cài đặt chủ đề để thay đổi bảng màu thẻ."
       }
     },
     "announcement-bar": {
@@ -406,27 +420,8 @@
               "label": "Hình ảnh"
             },
             "image_padding": {
-              "label": "Thêm vùng đệm ảnh",
-              "info": "Chọn vùng đệm ảnh nếu bạn không muốn cắt hình ảnh."
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "Nhấn 1"
-              },
-              "options__2": {
-                "label": "Nhấn 2"
-              },
-              "options__3": {
-                "label": "Nền 1"
-              },
-              "options__4": {
-                "label": "Nền 2"
-              },
-              "options__5": {
-                "label": "Nghịch đảo"
-              },
-              "label": "Bảng màu",
-              "info": "Chọn vùng đệm ảnh để hiển thị màu."
+              "label": "Sử dụng tỷ lệ hình ảnh gốc",
+              "info": "Chọn nếu bạn không muốn hình ảnh bị cắt."
             }
           }
         },
@@ -464,8 +459,8 @@
               "placeholder": "Sử dụng URL Youtube hoặc Vimeo"
             },
             "image_padding": {
-              "label": "Thêm vùng đệm ảnh",
-              "info": "Chọn vùng đệm ảnh nếu bạn không muốn cắt ảnh bìa."
+              "label": "Sử dụng tỷ lệ hình ảnh gốc",
+              "info": "Chọn nếu bạn không muốn hình ảnh bị cắt."
             },
             "description": {
               "label": "Văn bản thay thế cho video",
@@ -554,9 +549,6 @@
         "show_image": {
           "label": "Hiển thị hình ảnh nổi bật",
           "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        },
-        "soft_background": {
-          "label": "Hiển thị nền thứ cấp"
         },
         "show_date": {
           "label": "Hiển thị ngày"
@@ -704,6 +696,9 @@
         },
         "payment_enable": {
           "label": "Hiển thị biểu tượng thanh toán"
+        },
+        "margin_top": {
+          "label": "Lề trên"
         }
       }
     },
@@ -757,6 +752,9 @@
             "label": "Nghịch đảo"
           },
           "label": "Bảng màu"
+        },
+        "margin_bottom": {
+          "label": "Lề dưới"
         }
       }
     },
@@ -959,8 +957,7 @@
           "options__3": {
             "label": "Lớn"
           },
-          "label": "Chiều cao hình ảnh",
-          "info": "Xác định chiều cao của mục."
+          "label": "Chiều cao hình ảnh"
         },
         "color_scheme": {
           "options__1": {
@@ -1083,9 +1080,6 @@
               },
               "options__2": {
                 "label": "Tiêu đề"
-              },
-              "options__3": {
-                "label": "Chữ viết hoa"
               }
             }
           }
@@ -1464,7 +1458,7 @@
                 "label": "Menu thả xuống"
               },
               "options__2": {
-                "label": "Nút"
+                "label": "Góc bo tròn"
               }
             }
           }
@@ -1517,72 +1511,132 @@
                 "label": "Không"
               },
               "options__2": {
-                "label": "Hộp"
+                "label": "Táo"
               },
               "options__3": {
-                "label": "Bong bóng trò chuyện"
+                "label": "Chuối"
               },
               "options__4": {
-                "label": "Dấu kiểm"
+                "label": "Chai"
               },
               "options__5": {
-                "label": "Máy sấy"
+                "label": "Hộp"
               },
               "options__6": {
-                "label": "Mắt"
+                "label": "Cà rốt"
               },
               "options__7": {
-                "label": "Trái tim"
+                "label": "Bong bóng trò chuyện"
               },
               "options__8": {
-                "label": "Bàn là"
+                "label": "Dấu kiểm"
               },
               "options__9": {
-                "label": "Lá"
+                "label": "Bìa kẹp hồ sơ"
               },
               "options__10": {
-                "label": "Da"
+                "label": "Sữa"
               },
               "options__11": {
-                "label": "Ổ khóa"
+                "label": "Không chứa sữa"
               },
               "options__12": {
-                "label": "Ghim bản đồ"
+                "label": "Máy sấy"
               },
               "options__13": {
-                "label": "Quần"
+                "label": "Mắt"
               },
               "options__14": {
-                "label": "Máy bay"
+                "label": "Lửa"
               },
               "options__15": {
-                "label": "Thẻ ghi giá"
+                "label": "Không chứa gluten"
               },
               "options__16": {
-                "label": "Dấu hỏi"
+                "label": "Trái tim"
               },
               "options__17": {
-                "label": "Quay lại"
+                "label": "Bàn là"
               },
               "options__18": {
-                "label": "Thước kẻ"
+                "label": "Lá"
               },
               "options__19": {
-                "label": "Áo sơ mi"
+                "label": "Da"
               },
               "options__20": {
-                "label": "Giày"
+                "label": "Tia sét"
               },
               "options__21": {
-                "label": "Hình chiếu"
+                "label": "Son"
               },
               "options__22": {
-                "label": "Ngôi sao"
+                "label": "Ổ khóa"
               },
               "options__23": {
-                "label": "Xe tải"
+                "label": "Ghim bản đồ"
               },
               "options__24": {
+                "label": "Không chứa hạt"
+              },
+              "options__25": {
+                "label": "Quần"
+              },
+              "options__26": {
+                "label": "Dấu chân"
+              },
+              "options__27": {
+                "label": "Hạt tiêu"
+              },
+              "options__28": {
+                "label": "Nước hoa"
+              },
+              "options__29": {
+                "label": "Máy bay"
+              },
+              "options__30": {
+                "label": "Thực vật"
+              },
+              "options__31": {
+                "label": "Thẻ ghi giá"
+              },
+              "options__32": {
+                "label": "Dấu hỏi"
+              },
+              "options__33": {
+                "label": "Tái chế"
+              },
+              "options__34": {
+                "label": "Đơn hàng trả lại"
+              },
+              "options__35": {
+                "label": "Thước kẻ"
+              },
+              "options__36": {
+                "label": "Đĩa ăn"
+              },
+              "options__37": {
+                "label": "Áo sơ mi"
+              },
+              "options__38": {
+                "label": "Giày"
+              },
+              "options__39": {
+                "label": "Hình chiếu"
+              },
+              "options__40": {
+                "label": "Hoa tuyết"
+              },
+              "options__41": {
+                "label": "Ngôi sao"
+              },
+              "options__42": {
+                "label": "Đồng hồ bấm giờ"
+              },
+              "options__43": {
+                "label": "Xe tải"
+              },
+              "options__44": {
                 "label": "Giặt"
               }
             }
@@ -1755,9 +1809,6 @@
           },
           "options__2": {
             "label": "Hiển thị dưới dạng nền cột"
-          },
-          "options__3": {
-            "label": "Hiển thị dưới dạng nền mục"
           }
         },
         "button_label": {
@@ -2051,7 +2102,7 @@
                 "label": "Menu thả xuống"
               },
               "options__2": {
-                "label": "Nút"
+                "label": "Góc bo tròn"
               }
             }
           }
@@ -2309,102 +2360,14 @@
             "label": "Số"
           }
         },
-        "heading_size": {
-          "label": "Cỡ phông chữ tiêu đề",
-          "options__1": {
-            "label": "Trung bình"
-          },
-          "options__2": {
-            "label": "Lớn"
-          }
-        },
-        "box_align": {
-          "label": "Vị trí nội dung trên màn hình máy tính để bàn",
-          "options__1": {
-            "label": "Trên cùng bên trái"
-          },
-          "options__2": {
-            "label": "Trên cùng ở giữa"
-          },
-          "options__3": {
-            "label": "Trên cùng bên phải"
-          },
-          "options__4": {
-            "label": "Ở giữa bên trái"
-          },
-          "options__5": {
-            "label": "Chính giữa"
-          },
-          "options__6": {
-            "label": "Ở giữa bên phải"
-          },
-          "options__7": {
-            "label": "Dưới cùng bên trái"
-          },
-          "options__8": {
-            "label": "Dưới cùng ở giữa"
-          },
-          "options__9": {
-            "label": "Dưới cùng bên phải"
-          }
-        },
-        "show_text_box": {
-          "label": "Hiện vùng chứa trên máy tính để bàn"
-        },
-        "text_alignment": {
-          "label": "Căn chỉnh nội dung trên máy tính để bàn",
-          "option_1": {
-            "label": "Bên trái"
-          },
-          "option_2": {
-            "label": "Giữa"
-          },
-          "option_3": {
-            "label": "Bên phải"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Độ chắn sáng của lớp phủ hình ảnh"
-        },
         "auto_rotate": {
           "label": "Tự động xoay vòng các trang chiếu"
         },
         "change_slides_speed": {
           "label": "Đổi trang chiếu sau mỗi"
         },
-        "color_scheme": {
-          "label": "Bảng màu hộp",
-          "info": "Có thể nhìn thấy khi vùng chứa hiển thị.",
-          "options__1": {
-            "label": "Điểm nhấn 1"
-          },
-          "options__2": {
-            "label": "Điểm nhấn 2"
-          },
-          "options__3": {
-            "label": "Nền 1"
-          },
-          "options__4": {
-            "label": "Nền 2"
-          },
-          "options__5": {
-            "label": "Nghịch đảo"
-          }
-        },
         "mobile": {
           "content": "Bố cục di động"
-        },
-        "text_alignment_mobile": {
-          "label": "Căn chỉnh nội dung trên thiết bị di động",
-          "options__1": {
-            "label": "Bên trái"
-          },
-          "options__2": {
-            "label": "Giữa"
-          },
-          "options__3": {
-            "label": "Bên phải"
-          }
         },
         "show_text_below": {
           "label": "Hiển thị nội dung bên dưới hình ảnh trên thiết bị di động"
@@ -2659,72 +2622,132 @@
                 "label": "Không"
               },
               "options__2": {
-                "label": "Hộp"
+                "label": "Táo"
               },
               "options__3": {
-                "label": "Bong bóng trò chuyện"
+                "label": "Chuối"
               },
               "options__4": {
-                "label": "Dấu kiểm"
+                "label": "Chai"
               },
               "options__5": {
-                "label": "Máy sấy"
+                "label": "Hộp"
               },
               "options__6": {
-                "label": "Mắt"
+                "label": "Cà rốt"
               },
               "options__7": {
-                "label": "Trái tim"
+                "label": "Bong bóng trò chuyện"
               },
               "options__8": {
-                "label": "Bàn là"
+                "label": "Dấu kiểm"
               },
               "options__9": {
-                "label": "Lá"
+                "label": "Bìa kẹp hồ sơ"
               },
               "options__10": {
-                "label": "Da"
+                "label": "Sữa"
               },
               "options__11": {
-                "label": "Ổ khóa"
+                "label": "Không chứa sữa"
               },
               "options__12": {
-                "label": "Ghim bản đồ"
+                "label": "Máy sấy"
               },
               "options__13": {
-                "label": "Quần"
+                "label": "Mắt"
               },
               "options__14": {
-                "label": "Máy bay"
+                "label": "Lửa"
               },
               "options__15": {
-                "label": "Thẻ ghi giá"
+                "label": "Không chứa gluten"
               },
               "options__16": {
-                "label": "Dấu hỏi"
+                "label": "Trái tim"
               },
               "options__17": {
-                "label": "Đơn hàng trả lại"
+                "label": "Bàn là"
               },
               "options__18": {
-                "label": "Thước kẻ"
+                "label": "Lá"
               },
               "options__19": {
-                "label": "Áo sơ mi"
+                "label": "Da"
               },
               "options__20": {
-                "label": "Giày"
+                "label": "Tia sét"
               },
               "options__21": {
-                "label": "Hình chiếu"
+                "label": "Son"
               },
               "options__22": {
-                "label": "Ngôi sao"
+                "label": "Ổ khóa"
               },
               "options__23": {
-                "label": "Xe tải"
+                "label": "Ghim bản đồ"
               },
               "options__24": {
+                "label": "Không chứa hạt"
+              },
+              "options__25": {
+                "label": "Quần"
+              },
+              "options__26": {
+                "label": "Dấu chân"
+              },
+              "options__27": {
+                "label": "Hạt tiêu"
+              },
+              "options__28": {
+                "label": "Nước hoa"
+              },
+              "options__29": {
+                "label": "Máy bay"
+              },
+              "options__30": {
+                "label": "Thực vật"
+              },
+              "options__31": {
+                "label": "Thẻ ghi giá"
+              },
+              "options__32": {
+                "label": "Dấu hỏi"
+              },
+              "options__33": {
+                "label": "Tái chế"
+              },
+              "options__34": {
+                "label": "Đơn hàng trả lại"
+              },
+              "options__35": {
+                "label": "Thước kẻ"
+              },
+              "options__36": {
+                "label": "Đĩa ăn"
+              },
+              "options__37": {
+                "label": "Áo sơ mi"
+              },
+              "options__38": {
+                "label": "Giày"
+              },
+              "options__39": {
+                "label": "Hình chiếu"
+              },
+              "options__40": {
+                "label": "Hoa tuyết"
+              },
+              "options__41": {
+                "label": "Ngôi sao"
+              },
+              "options__42": {
+                "label": "Đồng hồ bấm giờ"
+              },
+              "options__43": {
+                "label": "Xe tải"
+              },
+              "options__44": {
                 "label": "Giặt"
               }
             }
