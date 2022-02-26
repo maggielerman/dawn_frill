@@ -12,9 +12,9 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 24,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": true,
         "enable_filtering": true,
         "enable_sorting": true,
