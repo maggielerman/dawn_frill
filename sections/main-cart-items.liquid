@@ -43,6 +43,7 @@
 
   <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
+      {% comment %} <p> <label for="note">Gift note:</label><br/> <textarea name="note" id="note" rows="3" cols="60">{{ cart.note }}</textarea> </p> {% endcomment %}
       <div class="js-contents">
         {%- if cart != empty -%}
           <table class="cart-items">
