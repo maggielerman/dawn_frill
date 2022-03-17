@@ -87,9 +87,10 @@
             document.querySelector('.editorify-form-dialog').style.display = 'none';
             iframe.src = iframe.src;
         }
-
+        var height = 0;
         if(message.message == "resize"){
-            if(message.height > 0){
+            if(message.height > 0 && height != message.height){
+                height = message.height
                 nodes.forEach((frame, index) => {
                     frame.style.height = message.height + 'px';
                 })
@@ -98,6 +99,9 @@
             setTimeout(function () {
                 if(document.querySelector('#editorify-reviews-widget') && !document.querySelector('#editorify-reviews-widget .edititorifyReviewsFrame')){
                     document.querySelector('#editorify-reviews-widget').append(document.querySelector('.edititorifyReviewsFrame'))
+                }else if(window.location.href.indexOf('aya.eco') > -1 && document.querySelector('.inner-wrapper-sticky') && !document.querySelector('.inner-wrapper-sticky .edititorifyReviewsFrame')){
+                    document.querySelector('.inner-wrapper-sticky').append(document.querySelector('.edititorifyReviewsFrame'))
+
                 }
             },2000)
 
@@ -111,6 +115,8 @@
             el.innerHTML  = message.rateString
             if(document.querySelector('.product-single__meta .product-single__title')){
                 insertAfter(document.querySelector('.product-single__meta .product-single__title'), el);
+            }else if(document.querySelector('.product-details-header-content h1.product-title')){
+                insertAfter(document.querySelector('.product-details-header-content h1.product-title'), el);
             }else if(document.querySelector('.product-single__title')){
                 insertAfter(document.querySelector('.product-single__title'), el);
             }else if(document.querySelector('.editorify-reviews-rating')){
