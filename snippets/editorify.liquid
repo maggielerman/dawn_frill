@@ -53,6 +53,12 @@
             document.querySelector('#tabs #product-reviews-a').click()
         }
 
+        setTimeout(function () {
+            if (document.querySelector('li[data-et-handle="tabs-reviews"]')) {
+                document.querySelector('li[data-et-handle="tabs-reviews"]').click()
+            }
+        }, 2000);
+
         renderIframe(iframes);
         let formFrame = document.querySelector('.edititorifyReviewsFormFrame')
         if(formFrame){
