@@ -108,8 +108,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/il_fullxfull.3256197092_3ps3.jpg",
-            "image_padding": true,
-            "color_scheme": "background-1"
+            "image_padding": true
           }
         },
         "product": {
