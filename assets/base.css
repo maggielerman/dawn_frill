@@ -2514,13 +2514,11 @@ details[open] > .header__icon--menu .icon-hamburger {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: limegreen;
-  /* color: rgba(var(--color-foreground), 0.75); */
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 .header__menu-item:hover {
-  color:pink;
-  /* color: rgb(var(--color-foreground)); */
+  color: rgb(var(--color-foreground));
 }
 
 .header__menu-item span {
@@ -2561,8 +2559,6 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu.list-menu--disclosure {
-  /* width: 100vw; */
-  background-color: purple;
   border-radius: var(--popup-corner-radius);
   border-color: rgba(var(--color-foreground), var(--popup-border-opacity));
   border-style: solid;
@@ -2577,8 +2573,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu .header__submenu {
-  background-color: orange;
-  /* background-color: rgba(var(--color-foreground), 0.03); */
+  background-color: rgba(var(--color-foreground), 0.03);
   padding: 0.5rem;
  /* padding: 20px; */
   margin: 0.5rem 0;
