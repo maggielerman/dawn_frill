@@ -436,16 +436,16 @@
                     {% render 'icon-caret' %}
                   </summary>
                   
-                  <ul id="HeaderMenu-MenuList-Collections{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
+                  <ul id="HeaderMenu-MenuList-Collections{{ forloop.index }}" 
+                    class="twbg-pink-500 header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
                     {%- for collection in collections -%}
                       {%- if collection.metafields.collection.is_nav == true -%}
 
-                        <li>
-                            <a href="{{ collection.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if collection.current %} list-menu__item--active{% endif %}"{% if collection.current %} aria-current="page"{% endif %}>
+                        <li class="twbg-red-800 hover:twbg-blue-200">
+                            <a class="twtext-green-800" href="{{ collection.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if collection.current %} list-menu__item--active{% endif %}"{% if collection.current %} aria-current="page"{% endif %}>
                               {{ collection.title | escape }}
                             </a>
-                      
-                      </li>
+                        </li>
                     {%- endif -%}
                     {%- endfor -%}
                   </ul>

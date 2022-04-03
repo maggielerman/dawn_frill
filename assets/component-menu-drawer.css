@@ -1,3 +1,5 @@
+/* MOBILE MENU CONTROLS */
+
 .header__icon--menu {
   position: initial;
 }
@@ -14,7 +16,8 @@
   );
   top: 100%;
   left: 0;
-  background: rgba(var(--color-foreground), 0.5);
+  background-color: green;
+  /* background: rgba(var(--color-foreground), 0.5); */
   opacity: 0;
   visibility: hidden;
   z-index: 2;
@@ -38,6 +41,7 @@ menu-drawer > details[open] > summary::before {
   width: calc(100vw - 4rem);
   padding: 0;
   border-width: 0 var(--drawer-border-width) 0 0;
+  /* background-color: blue; */
   background-color: rgb(var(--color-background));
   overflow-x: hidden;
   border-style: solid;
@@ -151,11 +155,13 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__menu-item:hover,
 .menu-drawer__close-button:hover {
   color: rgb(var(--color-foreground));
-  background-color: rgba(var(--color-foreground), 0.04);
+  background-color: pink;
+  /* background-color: rgba(var(--color-foreground), 0.04); */
 }
 
 .menu-drawer__menu-item--active:hover {
-  background-color: rgba(var(--color-foreground), 0.08);
+  background-color: red;
+  /* background-color: rgba(var(--color-foreground), 0.08); */
 }
 
 .js .menu-drawer__menu-item .icon-caret,
@@ -176,6 +182,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   width: 100%;
   bottom: 0;
   left: 0;
+  /* background-color: yellow; */
   background-color: rgb(var(--color-background));
   border-left: 0.1rem solid rgba(var(--color-foreground), 0.2);
   z-index: 1;
@@ -195,6 +202,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-items: center;
   font-size: 1.4rem;
   width: 100%;
+  /* background-color: orange; */
   background-color: transparent;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
@@ -211,7 +219,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__utility-links {
   padding: 2rem;
-  background-color: rgba(var(--color-foreground), 0.03);
+  background-color: purple;
+  /* background-color: rgba(var(--color-foreground), 0.03); */
 }
 
 .menu-drawer__account {

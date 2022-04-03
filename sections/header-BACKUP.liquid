@@ -14,6 +14,9 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -100,7 +103,7 @@
             <span>
               {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
-            </span>
+            </span> 
           </summary>
           <div id="menu-drawer" class="menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
@@ -110,6 +113,7 @@
                     {%- for link in section.settings.menu.links -%}
                       <li>
                         {%- if link.links != blank -%}
+                          
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                               {{ link.title | escape }}
@@ -155,7 +159,7 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
-                                </ul>
+                                </ul> 
                               </div>
                             </div>
                           </details>
@@ -165,6 +169,22 @@
                           </a>
                         {%- endif -%}
                       </li>
+                    {%- endfor -%}
+                  </ul>
+                  <ul class="menu-drawer__menu list-menu" role="list">
+                    {%- for collection in collections -%}
+                      {%- if collection.metafields.collection.is_nav != false -%}
+                        <li>
+                          <a href="{{ collection.url }}" class="full-unstyled-link">
+                            {%- if collection.title != blank -%}
+                              {{- collection.title | escape -}}
+                            {%- else -%}
+                              {{ 'onboarding.collection_title' | t }}
+                            {%- endif -%}
+                            {%- if collection.description == blank -%}<span class="icon-wrap">{% render 'icon-arrow' %}</span>{% endif %}
+                          </a>
+                        </li>
+                      {%- endif -%}
                     {%- endfor -%}
                   </ul>
                 </nav>
@@ -408,6 +428,32 @@
               {%- endif -%}
             </li>
           {%- endfor -%}
+            <li>
+              <details-disclosure>
+                <details id="Details-HeaderMenu-Collections{{ forloop.index }}">
+                  <summary class="header__menu-item list-menu__item link focus-inset">
+                    <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>Shop by Artist</span>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  
+                  <ul id="HeaderMenu-MenuList-Collections{{ forloop.index }}" 
+                    class="twbg-pink-500 header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
+                    {%- for collection in collections -%}
+                      {%- if collection.metafields.collection.is_nav == true -%}
+
+                        <li class="twbg-red-800 hover:twbg-blue-200">
+                            <a class="twtext-green-800" href="{{ collection.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if collection.current %} list-menu__item--active{% endif %}"{% if collection.current %} aria-current="page"{% endif %}>
+                              {{ collection.title | escape }}
+                            </a>
+                        </li>
+                    {%- endif -%}
+                    {%- endfor -%}
+                  </ul>
+
+
+                </details>
+              </details-disclosure>
+            </li>
         </ul>
       </nav>
     {%- endif -%}
