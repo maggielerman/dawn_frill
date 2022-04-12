@@ -138,7 +138,60 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "6471712195879653093": {
+        "type": "shopify:\/\/apps\/concierge-customer-accounts\/blocks\/social_logins\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "disabled": true,
+        "settings": {
+          "position": "below",
+          "divider": true,
+          "style": "icon_and_text",
+          "text_alignment": "center",
+          "icon_alignment": "left",
+          "border_radius": 4,
+          "spacing": 8,
+          "shadow": true,
+          "custom_css": ""
+        }
+      },
+      "11074193060611426105": {
+        "type": "shopify:\/\/apps\/concierge-customer-accounts\/blocks\/product_wishlist\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "disabled": true,
+        "settings": {
+          "placement": "below_add_to_cart",
+          "product_css_selector": "",
+          "button_style": "icon_and_text",
+          "border_radius": 4,
+          "shadow": true,
+          "offset_top": 0,
+          "offset_bottom": 0,
+          "offset_left": 0,
+          "offset_right": 0,
+          "add_button_color": "#5873F9",
+          "add_button_text_color": "#ffffff",
+          "remove_button_color": "#333333",
+          "remove_button_text_color": "#ffffff",
+          "custom_css": ""
+        }
+      },
+      "12046557757412368804": {
+        "type": "shopify:\/\/apps\/concierge-customer-accounts\/blocks\/customer_account_page\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "disabled": false,
+        "settings": {
+          "style": "light",
+          "dropdownMenu": "slider",
+          "mobile_nav_offset_top": 0,
+          "shadow": false,
+          "border_radius": 4,
+          "background_color": "#ffffff",
+          "text_color": "#202202",
+          "primary_color": "#5873F9",
+          "btn_text_color": "#ffffff",
+          "custom_css": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
