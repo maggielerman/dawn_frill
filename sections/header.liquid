@@ -97,8 +97,10 @@
   </symbol>
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+  <header class="tw-bg-white header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+
     {%- if section.settings.menu != blank -%}
+     {% comment %} MOBILE MENU START {% endcomment %}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
@@ -334,7 +336,8 @@
             </div>
           </div>
         </details>
-      </header-drawer>
+      </header-drawer> 
+      {% comment %} MOBILE MENU END {% endcomment %}
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
@@ -437,6 +440,7 @@
     {%- if section.settings.menu != blank -%}
       <nav class="header__inline-menu">
         <ul class="list-menu list-menu--inline" role="list">
+        {% comment %} <ul class="list-menu list-menu--inline" role="list"> {% endcomment %}
           {%- for link in section.settings.menu.links -%}
             <li>
               {%- if link.links != blank -%}
@@ -482,57 +486,107 @@
               {%- endif -%}
             </li>
           {%- endfor -%}
+            
+          
             <li>
-              <details-disclosure>
+              {% comment %} <details-disclosure> {% endcomment %}
                 <details id="Details-HeaderMenu-Collections{{ forloop.index }}">
                   <summary class="header__menu-item list-menu__item link focus-inset">
-                    <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}> {{ by_artist }}</span>
+                    <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}> {{by_subject}}</span>
                     {% render 'icon-caret' %}
                   </summary>
                   
-                  <ul id="HeaderMenu-MenuList-Collections{{ forloop.index }}" 
-                    class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
-                    {%- for collection in collections -%}
-                      {%- if collection.metafields.collection.is_nav == true and collection.metafields.collection.by_artist == true -%}
-                       
-                        <li class="twbg-red-800 hover:twbg-blue-200">
-                          <a href="{{ collection.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if collection.current %} list-menu__item--active{% endif %}"{% if collection.current %} aria-current="page"{% endif %}>
-                            {{ collection.title | escape }}
-                          </a>
-                        </li>
-                    {%- endif -%}
-                    {%- endfor -%}
-                  </ul>
+                    <div class="tw-absolute tw-top-full tw-inset-x-0 tw-text-gray-500">
+                      <div class="tw-absolute tw-inset-0 tw-top-1/2 tw-bg-white tw-shadow" aria-hidden="true"></div>
+        
+                      <div class="tw-relative tw-bg-white tw-shadow-lg">
+                        <div class="tw-max-w-screen tw-mx-auto tw-px-8">
+                         
+                          <div class="tw-p-10 tw-grid tw-overflow-hidden tw-gap-2">
+
+                            <div class="tw-border-t">
+                              <div class="tw-p-6 tw-grid tw-grid-cols-4 lg:tw-grid-cols-5 tw-gap-4 lg:tw-gap-8">
+                                <div class="tw-col-span-1 tw-row-span-4 tw-pt-4">
+                                    <div class="tw-text-black tw-grow tw-p-4 tw-w-full tw-h-full tw-flex tw-items-center  tw-border-right tw-pt-4">
+                                    WALL ART BY SUBJECT
+                                    </div>
+                                </div>
+                                {%- for collection in collections -%}
+                                  {% comment %} <div class="tw-min-w-full tw-min-h-full"> {% endcomment %}
+                                  <div class="tw-text-left tw-grow tw-flex tw-items-center ">
+  
+                                  {%- if collection.metafields.collection.is_nav == true and collection.metafields.collection.by_subject == true -%}
+                                      <a class="tw-text-left" href="{{ collection.url }}" >
+                                      {{ collection.title | escape }}
+                                    </a>
+                                 
+                                  {%- endif -%}
+                                </div>
+                              {%- endfor -%}    
+
+                                </div>
+                            
+                            </div>
+                            
+                          </div>
+
+                      
+                        </div>
+                      </div>
+                    </div>
 
 
                 </details>
-              </details-disclosure>
             </li>
             <li>
-              <details-disclosure>
+              {% comment %} <details-disclosure> {% endcomment %}
                 <details id="Details-HeaderMenu-Collections{{ forloop.index }}">
                   <summary class="header__menu-item list-menu__item link focus-inset">
-                    <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}> {{ by_subject }}</span>
+                    <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}> {{by_artist}}</span>
                     {% render 'icon-caret' %}
                   </summary>
                   
-                  <ul id="HeaderMenu-MenuList-Collections{{ forloop.index }}" 
-                    class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
-                    {%- for collection in collections -%}
-                      {%- if collection.metafields.collection.is_nav == true and collection.metafields.collection.by_subject == true -%}
-                       
-                        <li class="twbg-red-800 hover:twbg-blue-200">
-                          <a href="{{ collection.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if collection.current %} list-menu__item--active{% endif %}"{% if collection.current %} aria-current="page"{% endif %}>
-                            {{ collection.title | escape }}
-                          </a>
-                        </li>
-                    {%- endif -%}
-                    {%- endfor -%}
-                  </ul>
+                    <div class="tw-absolute tw-top-full tw-inset-x-0 tw-text-gray-500">
+                      <div class="tw-absolute tw-inset-0 tw-top-1/2 tw-bg-white tw-shadow" aria-hidden="true"></div>
+        
+                      <div class="tw-relative tw-bg-white tw-shadow-lg">
+                        <div class="tw-max-w-screen tw-mx-auto tw-px-8">
+                         
+                          <div class="tw-p-10 tw-grid tw-overflow-hidden tw-gap-2">
+
+                            <div class="tw-border-t">
+                              <div class="tw-p-6 tw-grid tw-grid-cols-4 lg:tw-grid-cols-5 tw-gap-4 lg:tw-gap-8">
+                                <div class="tw-col-span-1 tw-row-span-4 tw-pt-4">
+                                    <div class="tw-text-black tw-grow tw-p-4 tw-w-full tw-h-full tw-flex tw-items-center  tw-border-right tw-pt-4">
+                                    WALL ART BY ARTIST
+                                    </div>
+                                </div>
+                                {%- for collection in collections -%}
+                                  {% comment %} <div class="tw-min-w-full tw-min-h-full"> {% endcomment %}
+                                  <div class="tw-text-left tw-grow tw-flex tw-items-center ">
+  
+                                  {%- if collection.metafields.collection.is_nav == true and collection.metafields.collection.by_artist == true -%}
+                                      <a class="tw-text-left" href="{{ collection.url }}" >
+                                      {{ collection.title | escape }}
+                                    </a>
+                                 
+                                  {%- endif -%}
+                                </div>
+                              {%- endfor -%}    
+
+                                </div>
+                            
+                            </div>
+                            
+                          </div>
+
+                      
+                        </div>
+                      </div>
+                    </div>
 
 
                 </details>
-              </details-disclosure>
             </li>
         </ul>
       </nav>

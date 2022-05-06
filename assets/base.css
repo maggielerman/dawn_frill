@@ -2179,12 +2179,13 @@ input[type='checkbox'] {
     grid-template-columns: auto auto 1fr;
     column-gap: 2rem;
   }
-
+  
   .header--top-center {
     grid-template-areas:
       'left-icon heading icons'
       'navigation navigation navigation';
-  }
+  } 
+
 
   .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 1.05rem;
@@ -2568,8 +2569,9 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu.list-menu {
   padding: 2.4rem;
-  /* background-color: blue;
-  width: calc(100vw - 4em); */
+  /* background-color: blue; */
+  /* width: calc(100vw - 4em); */
+  /* width: 100vw; */
 }
 
 .header__submenu .header__submenu {
