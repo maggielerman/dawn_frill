@@ -146,13 +146,7 @@
       },
       "view_full_details": "Alle details bekijken",
       "include_taxes": "Inclusief btw.",
-<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij de checkout."
-=======
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij de checkout.",
-      "choose_options": "Opties kiezen",
-      "choose_product_options": "Opties kiezen voor {{ product_name }}"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "modal": {
       "label": "Mediagalerij"
@@ -160,7 +154,7 @@
     "facets": {
       "apply": "Toepassen",
       "clear": "Wissen",
-      "clear_all": "Alles verwijderen",
+      "clear_all": "Alles wissen",
       "from": "Van",
       "filter_and_sort": "Filteren en sorteren",
       "filter_by_label": "Filter:",
@@ -182,10 +176,7 @@
       "sort_button": "Sorteren",
       "sort_by_label": "Sorteer op:",
       "to": "Aan",
-      "clear_filter": "Filter verwijderen",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filters geselecteerd)",
-      "show_more": "Meer weergeven",
-      "show_less": "Minder weergeven"
+      "clear_filter": "Filters wissen"
     }
   },
   "templates": {
@@ -215,8 +206,7 @@
         "comment": "Reactie",
         "send": "Sturen",
         "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",
-        "error_heading": "Pas het volgende aan:",
-        "title": "Contactformulier"
+        "error_heading": "Pas het volgende aan:"
       }
     },
     "404": {
@@ -252,8 +242,7 @@
         "product": "Product",
         "price": "Prijs",
         "total": "Totaal",
-        "quantity": "Aantal",
-        "image": "Productafbeelding"
+        "quantity": "Aantal"
       },
       "update": "Bijwerken",
       "login": {
@@ -271,8 +260,7 @@
     },
     "featured_collection": {
       "view_all": "Alles bekijken",
-      "view_all_label": "Bekijk alle producten in de collectie {{ collection_name }}",
-      "slider": "Schuifregelaar"
+      "view_all_label": "Bekijk alle producten in de collectie {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Alles bekijken"
@@ -280,11 +268,7 @@
     "collection_template": {
       "title": "Collectie",
       "empty": "Geen producten gevonden",
-<<<<<<< HEAD
       "use_fewer_filters_html": "Minder filters gebruiken of <a class=\"{{ class }}\" href=\"{{ link }}\">alles wissen<\/a>"
-=======
-      "use_fewer_filters_html": "Minder filters gebruiken of <a class=\"{{ class }}\" href=\"{{ link }}\">alles verwijderen</a>"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
@@ -297,9 +281,6 @@
       "play_slideshow": "Diavoorstelling afspelen",
       "carousel": "Carrousel",
       "slide": "Dia"
-    },
-    "page": {
-      "title": "Paginatitel"
     }
   },
   "localization": {
@@ -367,7 +348,7 @@
       "order_number_link": "Bestelnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Betaalstatus",
-      "fulfillment_status": "Fulfilmentstatus",
+      "fulfillment_status": "Fulfillmentstatus",
       "total": "Totaal",
       "none": "Je hebt nog geen bestellingen geplaatst."
     },
@@ -399,7 +380,7 @@
       "billing_address": "Factuuradres",
       "payment_status": "Betaalstatus",
       "shipping_address": "Bezorgadres",
-      "fulfillment_status": "Fulfilmentstatus",
+      "fulfillment_status": "Fulfillmentstatus",
       "discount": "Korting",
       "shipping": "Verzending",
       "tax": "Belasting",
@@ -413,8 +394,7 @@
       "tracking_url": "Volglink",
       "tracking_company": "Vervoerder",
       "tracking_number": "Trackingnummer",
-      "subtotal": "Subtotaal",
-      "total_duties": "Douanerechten"
+      "subtotal": "Subtotaal"
     }
   },
   "gift_cards": {

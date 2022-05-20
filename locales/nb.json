@@ -146,13 +146,7 @@
       },
       "view_full_details": "Vis alle detaljer",
       "include_taxes": "Avgift inkludert.",
-<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beregnes ved kassen."
-=======
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes ved kassen.",
-      "choose_options": "Velg alternativer",
-      "choose_product_options": "Velg alternativer for {{ product_name }}"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "modal": {
       "label": "Mediegalleri"
@@ -182,10 +176,7 @@
       "sort_button": "Sorter",
       "sort_by_label": "Sorter etter:",
       "to": "Til",
-      "clear_filter": "Fjern filter",
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filtre valgt)",
-      "show_more": "Vis mer",
-      "show_less": "Vis færre"
+      "clear_filter": "Fjern filter"
     }
   },
   "templates": {
@@ -215,8 +206,7 @@
         "comment": "Kommentar",
         "send": "Send",
         "post_success": "Takk for at du kontaktet oss. Vi vil svare deg så snart som mulig.",
-        "error_heading": "Juster følgende:",
-        "title": "Kontaktskjema"
+        "error_heading": "Juster følgende:"
       }
     },
     "404": {
@@ -252,8 +242,7 @@
         "product": "Produkt",
         "price": "Pris",
         "total": "Totalt",
-        "quantity": "Antall",
-        "image": "Produktbilde"
+        "quantity": "Antall"
       },
       "update": "Oppdater",
       "login": {
@@ -271,8 +260,7 @@
     },
     "featured_collection": {
       "view_all": "Vis alle",
-      "view_all_label": "Vis alle produktene i {{ collection_name }}-samlingen",
-      "slider": "Glidefelt"
+      "view_all_label": "Vis alle produktene i {{ collection_name }}-samlingen"
     },
     "collection_list": {
       "view_all": "Vis alle"
@@ -280,11 +268,7 @@
     "collection_template": {
       "title": "Samling",
       "empty": "Ingen produkter funnet",
-<<<<<<< HEAD
       "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">tøm alle<\/a>"
-=======
-      "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">fjern alle</a>"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "video": {
       "load_video": "Last inn video: {{ description }}"
@@ -297,9 +281,6 @@
       "play_slideshow": "Spill av lysbildefremvisningen",
       "carousel": "Karusell",
       "slide": "Lysbilde"
-    },
-    "page": {
-      "title": "Sidetittel"
     }
   },
   "localization": {
@@ -383,8 +364,7 @@
       "tracking_url": "Sporingskobling",
       "tracking_company": "Transportør",
       "tracking_number": "Sporingsnummer",
-      "subtotal": "Delsum",
-      "total_duties": "Tollplikter"
+      "subtotal": "Delsum"
     },
     "orders": {
       "title": "Bestillingshistorikk",

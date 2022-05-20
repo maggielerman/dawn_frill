@@ -146,13 +146,7 @@
       },
       "view_full_details": "查看完整详细信息",
       "include_taxes": "含税费。",
-<<<<<<< HEAD
       "shipping_policy_html": "结账时计算的<a href=\"{{ link }}\">运费<\/a>。"
-=======
-      "shipping_policy_html": "结账时计算的<a href=\"{{ link }}\">运费</a>。",
-      "choose_options": "选择选项",
-      "choose_product_options": "选择用于 {{ product_name }} 的选项"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "modal": {
       "label": "媒体图库"
@@ -160,7 +154,7 @@
     "facets": {
       "apply": "应用",
       "clear": "清除",
-      "clear_all": "全部删除",
+      "clear_all": "清除所有内容",
       "from": "从",
       "filter_and_sort": "筛选和排序",
       "filter_by_label": "筛选条件：",
@@ -182,10 +176,7 @@
       "sort_button": "排序",
       "sort_by_label": "排序依据：",
       "to": "到",
-      "clear_filter": "删除筛选条件",
-      "filter_selected_accessibility": "{{ type }}（已选择 {{ count }} 个筛选条件）",
-      "show_more": "显示更多内容",
-      "show_less": "隐藏部分内容"
+      "clear_filter": "清除筛选条件"
     }
   },
   "templates": {
@@ -215,8 +206,7 @@
         "comment": "评论",
         "send": "发送",
         "post_success": "感谢您联系我们。我们会尽快回复您。",
-        "error_heading": "请调整以下内容：",
-        "title": "联系表"
+        "error_heading": "请调整以下内容："
       }
     },
     "404": {
@@ -252,8 +242,7 @@
         "product": "产品",
         "price": "价格",
         "total": "总计",
-        "quantity": "数量",
-        "image": "产品图片"
+        "quantity": "数量"
       },
       "update": "更新",
       "login": {
@@ -271,8 +260,7 @@
     },
     "featured_collection": {
       "view_all": "查看全部",
-      "view_all_label": "查看 {{ collection_name }} 产品系列中的所有产品",
-      "slider": "滑块"
+      "view_all_label": "查看 {{ collection_name }} 产品系列中的所有产品"
     },
     "collection_list": {
       "view_all": "查看全部"
@@ -280,11 +268,7 @@
     "collection_template": {
       "title": "收藏",
       "empty": "未找到产品",
-<<<<<<< HEAD
       "use_fewer_filters_html": "减少使用的筛选条件数量或<a class=\"{{ class }}\" href=\"{{ link }}\">清除所有内容<\/a>"
-=======
-      "use_fewer_filters_html": "减少使用的筛选条件数量或<a class=\"{{ class }}\" href=\"{{ link }}\">删除所有筛选条件</a>"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "video": {
       "load_video": "加载视频：{{ description }}"
@@ -297,9 +281,6 @@
       "play_slideshow": "播放幻灯片",
       "carousel": "轮播",
       "slide": "幻灯片"
-    },
-    "page": {
-      "title": "页面标题"
     }
   },
   "localization": {
@@ -413,8 +394,7 @@
       "tracking_url": "跟踪链接",
       "tracking_company": "承运商",
       "tracking_number": "跟踪编号",
-      "subtotal": "小计",
-      "total_duties": "关税"
+      "subtotal": "小计"
     }
   },
   "gift_cards": {

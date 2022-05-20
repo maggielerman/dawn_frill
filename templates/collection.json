@@ -11,7 +11,6 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-<<<<<<< HEAD
         "products_per_page": 24,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -20,17 +19,6 @@
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": false,
-=======
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
-        "columns_mobile": "2",
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
         "padding_top": 36,
         "padding_bottom": 36
       }

@@ -103,8 +103,6 @@
   "products": {
     "product": {
       "add_to_cart": "Add to cart",
-      "choose_options": "Choose options",
-      "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "on_sale": "Sale",
       "product_variants": "Product variants",
@@ -148,11 +146,7 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
-=======
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "modal": {
       "label": "Media gallery"
@@ -160,7 +154,7 @@
     "facets": {
       "apply": "Apply",
       "clear": "Clear",
-      "clear_all": "Remove all",
+      "clear_all": "Clear all",
       "from": "From",
       "filter_and_sort": "Filter and sort",
       "filter_by_label": "Filter:",
@@ -169,9 +163,6 @@
         "one": "{{ count }} selected",
         "other": "{{ count }} selected"
       },
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filters selected)",
-      "show_more": "Show more",
-      "show_less": "Show less",
       "max_price": "The highest price is {{ price }}",
       "product_count": {
         "one": "{{ product_count }} of {{ count }} product",
@@ -185,7 +176,7 @@
       "sort_button": "Sort",
       "sort_by_label": "Sort by:",
       "to": "To",
-      "clear_filter": "Remove filter"
+      "clear_filter": "Clear filter"
     }
   },
   "templates": {
@@ -209,7 +200,6 @@
     },
     "contact": {
       "form": {
-        "title": "Contact form",
         "name": "Name",
         "email": "Email",
         "phone": "Phone number",
@@ -252,8 +242,7 @@
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity",
-        "image": "Product image"
+        "quantity": "Quantity"
       },
       "update": "Update",
       "login": {
@@ -271,8 +260,7 @@
     },
     "featured_collection": {
       "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection",
-      "slider": "Slider"
+      "view_all_label": "View all products in the {{ collection_name }} collection"
     },
     "collection_list": {
       "view_all": "View all"
@@ -280,11 +268,7 @@
     "collection_template": {
       "empty": "No products found",
       "title": "Collection",
-<<<<<<< HEAD
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
-=======
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
->>>>>>> 67eb9045a355660b936044e3daf3ac23b8bace1e
     },
     "video": {
       "load_video": "Load video: {{ description }}"
@@ -297,9 +281,6 @@
       "play_slideshow": "Play slideshow",
       "carousel": "Carousel",
       "slide": "Slide"
-    },
-    "page": {
-      "title": "Page title"
     }
   },
   "localization": {
@@ -383,8 +364,7 @@
       "tracking_url": "Tracking link",
       "tracking_company": "Carrier",
       "tracking_number": "Tracking number",
-      "subtotal": "Subtotal",
-      "total_duties": "Duties"
+      "subtotal": "Subtotal"
     },
     "orders": {
       "title": "Order history",
