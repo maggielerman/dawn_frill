@@ -1,19 +1,29 @@
-Dawn 3.0.0 introduces a new suite of theme style settings to let you customize the overall look and feel of your store.
+Dawn v5.0.0 introduces new ways to customize the look and feel of your store with a vertical product filter layout, mega menu header style, and a quick add button option. This update also features fixes and improvements, including several accessibility enhancements. 
 
 ### Added
-- Layout theme settings let you change the amount of spacing between each section, as well as the spacing between repeated items within sections.
-- New theme settings let you change the look of your buttons, variant pills, inputs, badges, media, content containers, drawers, dropdowns, and pop-ups by editing their borders, corners, and shadow effects. 
-- New theme settings on cards (product cards, collection cards, blog cards, collage section cards) let you pick from different styles, define text alignment, and edit their borders, corners, and shadow effects. 
-- The new collapsible content section lets you add content to your pages using a layout composed of collapsible rows. It’s ideal to build a frequently asked questions page, or add a section with secondary information to your product pages.
-- We added new icon options to the collapsible row block on the product page. 
-- We added a new color scheme setting on many sections, allowing more flexibility to customize the look of your store. Find it in: blog posts, collage, collapsible content, collection banner, contact form, custom liquid, featured collection, featured product, multicolumn, page, and product recommendations. 
-- New top and bottom padding settings were added on most sections, letting you define the amount of space at the top and bottom of the section. Find it in: blog posts, cart items, collage, collapsible content, collection list, collection product grid, contact form, custom liquid, email signup, featured collection, featured product, footer, image with text, search results, multicolumn, product information, page, product recommendations, rich text, and video.
-- You can now define the amount of space between your header and the following section with a new bottom margin setting on the header section.
-- You can now define the amount of space between your footer and the previous section with a new top margin setting on the footer section. 
-- We added support for app blocks to the featured product section.
+- Important: We’ve introduced a new vertical product filter layout so you can further customize your store’s filters. You’ll find this setting in the collection and search templates. This update may cause a visual change to your theme. If you previously selected the “Collapse on desktop” checkbox, your filter layout will be changed to horizontal, which is the new default. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
+- Important: You can now control the number of desktop and mobile grid columns in the collections list page, giving you more options to express your brand’s look and feel. This update may cause a layout change because columns will no longer automatically adjust to fill the available screen width. This can be modified by adjusting the number of columns setting.
+- We’ve added the ability to choose a mega menu style in the header section, providing better support for menus with many items. 
+- You can now enable a quick add button on your product cards, allowing your customers to quickly add items to their cart. Find this setting in the collection template and the featured collection section. 
+- The featured collection section is now more flexible. You can control the description, text styles, button styles, and layout in the section settings. 
+- You can now adjust how many products to show in the product recommendations section, allowing you more control over the layout of your store. 
+- The theme’s product filtering functionality now supports boolean (true or false) custom filters. 
 
-### Changed
-- The page width layout setting where you set the maximum width of your online store pages has changed to offer a range from 1000px to 1600px. 
+### Fixes and improvements
+- Gradients will now be applied more predictably across the theme. 
+- In some cases, the maximum price wasn’t showing on the price filter. This is now fixed. 
+- We fixed an issue where navigation arrows were unexpectedly appearing on product pages. 
+- The experience of navigating the slideshow section when using a screen reader or keyboard is improved. 
+- We fixed an issue where unintended mobile menu items were being discovered by screen readers. 
+- We removed an empty heading in the contact form, improving its accessibility. 
+- There was an issue with vendor name visibility on the cart page that is now fixed. 
+- We fixed an issue where the email signup text on the password page sometimes wasn’t visible. 
+- The “Continue shopping” button on the gift card page wasn’t working as expected. This is now fixed. 
+- The Shop Pay installments text will now be center aligned when there is no accompanying product media. 
+- There were some spacing inconsistencies in the product media gallery. This is now fixed.
+- Empty columns in the multicolumn section were adding unnecessary vertical space. This is now fixed. 
+- We’re now providing improved information on how to create meaningful alt text in the video section. 
+- We fixed an issue with making products full width on featured collections. 
 
 ### Removed
-- Important: Dawn no longer includes the Craft preset. If you’re interested in achieving the Craft look, you can now install the new [Craft theme](https://themes.shopify.com/themes/craft). 
+- In the collection and search templates, the “Collapse on desktop” checkbox has been removed from the filtering and sorting settings. If you’d like to achieve the collapsed style, select “Drawer” from the “Desktop filter layout” dropdown. 
