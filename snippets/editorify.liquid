@@ -56,6 +56,8 @@
         setTimeout(function () {
             if (document.querySelector('li[data-et-handle="tabs-reviews"]')) {
                 document.querySelector('li[data-et-handle="tabs-reviews"]').click()
+            }else if (document.querySelector('#Details-collapsible-row-2-template--15954471354600__main summary')) {
+                document.querySelector('#Details-collapsible-row-2-template--15954471354600__main summary').click()
             }
         }, 2000);
 
@@ -108,6 +110,9 @@
                 }else if(window.location.href.indexOf('aya.eco') > -1 && document.querySelector('.inner-wrapper-sticky') && !document.querySelector('.inner-wrapper-sticky .edititorifyReviewsFrame')){
                     document.querySelector('.inner-wrapper-sticky').append(document.querySelector('.edititorifyReviewsFrame'))
 
+                }else if(window.location.href.indexOf('oduduwa') > -1 && document.querySelector('#ProductAccordion-collapsible-row-2-template--15954471354600__main') && !document.querySelector('#ProductAccordion-collapsible-row-2-template--15954471354600__main .edititorifyReviewsFrame')){
+                    document.querySelector('#ProductAccordion-collapsible-row-2-template--15954471354600__main').append(document.querySelector('.edititorifyReviewsFrame'))
+
                 }
             },500)
 
@@ -123,6 +128,8 @@
                 insertAfter(document.querySelector('.product-single__meta .product-single__title'), el);
             }else if(document.querySelector('.product-details-header-content h1.product-title')){
                 insertAfter(document.querySelector('.product-details-header-content h1.product-title'), el);
+            }else if(document.querySelector('div[data-block-type="heading"]')){
+                document.querySelector('div[data-block-type="heading"]').append(el);
             }else if(document.querySelector('.product-single__title')){
                 insertAfter(document.querySelector('.product-single__title'), el);
             }else if(document.querySelector('.editorify-reviews-rating')){
@@ -155,6 +162,8 @@
                 insertAfter(document.querySelector('.product-info__title'), el);
             }else if(document.querySelector('h1.product__title')){
                 insertAfter(document.querySelector('h1.product__title'), el);
+            }else if(document.querySelector('.product__title')){
+                insertAfter(document.querySelector('.product__title'), el);
             }else if(document.querySelector('h2.heading2')){
                 insertAfter(document.querySelector('h2.heading2'), el);
             }else if(document.querySelector('h1[itemprop="name"]')){

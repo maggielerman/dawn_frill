@@ -11,11 +11,28 @@
 </div>
 
 {% else %}
-<div style="padding-top: 0; padding-bottom: 0;">
-    <div page-id="{{ page.id }}">
-        <iframe class="edititorifyReviewsFrame"  id="edititorifyReviewsFrameWidget" title="Editorify" data-ar-src="https://apps.editorify.com/review/review-view-page?store_name=cartsecure.myshopify.com&pageId={{ page.id }}"  width="100%" height="0" frameborder="0" scrolling="no" margin="0"></iframe>
-    </div>
-</div>
+    {% if page.id %}
+        <div style="padding-top: 0; padding-bottom: 0;">
+            <div page-id="{{ page.id }}">
+                <iframe class="edititorifyReviewsFrame"  id="edititorifyReviewsFrameWidget" title="Editorify" data-ar-src="https://apps.editorify.com/review/review-view-page?store_name=cartsecure.myshopify.com&pageId={{ page.id }}"  width="100%" height="0" frameborder="0" scrolling="no" margin="0"></iframe>
+            </div>
+        </div>
+    {% else %}
+        {% if shop.domain == "freyasfantasyweddings.com" %}
+        <div style="padding-top: 0; padding-bottom: 0;">
+            <div page-id="93822484634">
+                <iframe class="edititorifyReviewsFrame"  id="edititorifyReviewsFrameWidget" title="Editorify" data-ar-src="https://apps.editorify.com/review/review-view-page?store_name=freyas-fantasy-weddings.myshopify.com&pageId=93822484634"  width="100%" height="0" frameborder="0" scrolling="no" margin="0"></iframe>
+            </div>
+        </div>
+        {% endif %}
+        {% if shop.domain == "mylightboxco.com" %}
+        <div  style="padding-top: 0; padding-bottom: 0;">
+            <div>
+                <iframe class="edititorifyReviewsFrame" id="edititorifyReviewsFrameWidget" title="Editorify" data-ar-src="https://apps.editorify.com/slider/preview?store_name=cartsecure.myshopify.com"  width="100%" height="0" frameborder="0" scrolling="no" margin="0"></iframe>
+            </div>
+        </div>
+        {% endif %}
+    {% endif %}
 {% endif %}
 {% schema %}
 {
