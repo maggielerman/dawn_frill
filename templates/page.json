@@ -3,12 +3,16 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+      }
+    },
+    "editorify_section_widget": {
+      "type": "editorify_section_widget",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "editorify_section_widget"
   ]
 }
