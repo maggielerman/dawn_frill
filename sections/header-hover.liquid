@@ -1,0 +1,233 @@
+<style> 
+.mega-menu {
+    display: none;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+  }
+
+
+
+  /* #hoverable Class Styles */
+  .hoverable {
+    position: static;
+  }
+
+  .hoverable > a:after {
+    content: "\25BC";
+    font-size: 10px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+  }
+
+  .hoverable:hover .mega-menu {
+    display: block;
+  }
+
+
+  /* #toggle Class Styles */
+
+  .toggleable > label:after {
+    content: "\25BC";
+    font-size: 10px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+  }
+
+  .toggle-input {
+    display: none;
+  }
+  .toggle-input:not(checked) ~ .mega-menu {
+    display: none;
+  }
+
+  .toggle-input:checked ~ .mega-menu {
+    display: block;
+  }
+
+  .toggle-input:checked + label {
+    color: white;
+    background: rgb(3, 102, 114); /*@apply bg-teal-700 */
+  }
+
+  .toggle-input:checked ~ label:after {
+    content: "\25B2";
+    font-size: 10px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+  }
+
+</style>
+<nav class="tw-relative tw-bg-white tw-border-b-2 tw-border-gray-300 tw-text-gray-900">
+  <div class="container tw-mx-auto tw-flex tw-justify-between">
+    <div class="tw-relative tw-block tw-p-4 lg:tw-p-6 tw-text-xl tw-text-teal-600 tw-font-bold">
+      <a href="#" class="hover:tw-text-teal-900">Logo</a>
+    </div>
+    <ul class="tw-flex">
+	
+      <!--Regular Link-->
+      {% comment %} <li class="hover:tw-bg-teal-700 hover:tw-text-white">
+        <a href="#" class="tw-relative tw-block tw-py-6 tw-px-2 lg:tw-p-6 tw-text-sm lg:tw-text-base tw-font-bold">navlink</a>
+      </li> {% endcomment %}
+	  
+      <!--Toggleable Link-->
+      {% comment %} <li class="toggleable hover:tw-bg-teal-700 hover:tw-text-white">
+        <input type="checkbox" value="selected" id="toggle-one" class="toggle-input">
+          <label for="toggle-one" class="tw-block tw-cursor-pointer tw-py-6 tw-px-4 lg:tw-p-6 tw-text-sm lg:tw-text-base tw-font-bold">Click to show</label>
+          <div role="toggle" class="tw-p-6 mega-menu tw-mb-16 sm:tw-mb-0 tw-shadow-xl tw-bg-teal-700">
+            <div class="container tw-mx-auto tw-w-full tw-flex tw-flex-wrap tw-justify-between tw-mx-2">
+              <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-r lg:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Bespin</h3>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Lando Calrissian</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Nien Nunb</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Mon Mothma</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Wedge Antilles</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Admiral Gial Ackbar</a>
+                </li>
+              </ul>
+              <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-r-0 lg:tw-border-r lg:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Ahch-To</h3>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Obi-Wan Kenobi</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Yoda</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Emperor Palpatine</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Han Solo</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Anakin Skywalker/Darth Vader</a>
+                </li>
+              </ul>
+              <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-b-0 sm:tw-border-r md:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold">Coruscant</h3>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Luke Skywalker</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Princess Leia</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">Chewbacca</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">R2-D2</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-block tw-p-3 hover:tw-bg-teal-900 tw-text-gray-300 hover:tw-text-white">C-3PO</a>
+                </li>
+              </ul>
+              <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Endor</h3>
+                <li class="tw-pt-3">
+                  <img src="https://placehold.it/205x172">
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </li> {% endcomment %}
+      <!-- end Toggleable Link-->
+
+		  
+          <!--Hoverable Link-->
+          <li class="hoverable hover:tw-bg-teal-700 hover:tw-text-white">
+            <a href="#" class="tw-relative tw-block tw-py-6 tw-px-4 lg:tw-p-6 tw-text-sm lg:tw-text-base tw-font-bold hover:tw-bg-teal-700 hover:tw-text-white">Hover to show</a>
+            <div class="tw-p-6 mega-menu tw-mb-16 sm:tw-mb-0 tw-shadow-xl tw-bg-teal-700">
+              <div class="container tw-mx-auto tw-w-full tw-flex tw-flex-wrap tw-justify-between tw-mx-2">
+                <div class="tw-w-full tw-text-white tw-mb-8 tw-text-center">
+                  <h2 class="tw-font-bold tw-text-2xl">Listen, why don’t you wait out by the speeder.</h2>
+                  <p>our droids. They’ll have to wait outside. We don’t want them here.</p>
+                </div>
+                <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-r lg:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                  <div class="tw-flex tw-items-center">
+                    <svg class="tw-h-8 tw-mb-3 tw-mr-3 tw-fill-current tw-text-white"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
+                    </svg>
+                    <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Tatooine</h3>
+                  </div>
+                  <p class="tw-text-gray-100 tw-text-sm">Thul klivian doldur thisspiasian calrissian. Garindan d8 aurra twi'lek tund polis gen'dai sola tarpals.</p>
+                  <div class="tw-flex tw-items-center tw-py-3">
+                    <svg class="tw-h-6 tw-pr-3 tw-fill-current tw-text-teal-300"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z"/>
+                    </svg>
+                    <a href="#" class="tw-text-white bold tw-border-b-2 tw-border-teal-300 hover:tw-text-teal-900">Find out more...</a>
+                  </div>
+                </ul>
+                <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-r-0 lg:tw-border-r lg:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                  <div class="tw-flex tw-items-center">
+                    <svg class="tw-h-8 tw-mb-3 tw-mr-3 tw-fill-current tw-text-white"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4.13 12H4a2 2 0 1 0 1.8 1.11L7.86 10a2.03 2.03 0 0 0 .65-.07l1.55 1.55a2 2 0 1 0 3.72-.37L15.87 8H16a2 2 0 1 0-1.8-1.11L12.14 10a2.03 2.03 0 0 0-.65.07L9.93 8.52a2 2 0 1 0-3.72.37L4.13 12zM0 4c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4z"/>
+                    </svg>
+                    <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Cantonica</h3>
+                  </div>
+                  <p class="tw-text-gray-100 tw-text-sm">Thul klivian doldur thisspiasian calrissian. Garindan d8 aurra twi'lek tund polis gen'dai sola tarpals.</p>
+                  <div class="tw-flex tw-items-center tw-py-3">
+                    <svg class="tw-h-6 tw-pr-3 tw-fill-current tw-text-teal-300"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z"/>
+                    </svg>
+                    <a href="#" class="tw-text-white bold tw-border-b-2 tw-border-teal-300 hover:tw-text-teal-900">Find out more...</a>
+                  </div>
+                </ul>
+                <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-border-b sm:tw-border-b-0 sm:tw-border-r md:tw-border-b-0 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                  <div class="tw-flex tw-items-center">
+                    <svg class="tw-h-8 tw-mb-3 tw-mr-3 tw-fill-current tw-text-white"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M2 4v14h14v-6l2-2v10H0V2h10L8 4H2zm10.3-.3l4 4L8 16H4v-4l8.3-8.3zm1.4-1.4L16 0l4 4-2.3 2.3-4-4z"/>
+                    </svg>
+                    <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Yavin 4</h3>
+                  </div>
+                  <p class="tw-text-gray-100 tw-text-sm">Thul klivian doldur thisspiasian calrissian. Garindan d8 aurra twi'lek tund polis gen'dai sola tarpals.</p>
+                  <div class="tw-flex tw-items-center tw-py-3">
+                    <svg class="tw-h-6 tw-pr-3 tw-fill-current tw-text-teal-300"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z"/>
+                    </svg>
+                    <a href="#" class="tw-text-white bold tw-border-b-2 tw-border-teal-300 hover:tw-text-teal-900">Find out more...</a>
+                  </div>
+                </ul>
+                <ul class="tw-px-4 tw-w-full sm:tw-w-1/2 lg:tw-w-1/4 tw-border-gray-600 tw-pb-6 tw-pt-6 lg:tw-pt-3">
+                  <div class="tw-flex tw-items-center">
+                    <svg class="tw-h-8 tw-mb-3 tw-mr-3 tw-fill-current tw-text-white"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"/>
+                    </svg>
+                    <h3 class="tw-font-bold tw-text-xl tw-text-white text-bold tw-mb-2">Alderaan</h3>
+                  </div>
+                  <p class="tw-text-gray-100 tw-text-sm">Thul klivian doldur thisspiasian calrissian. Garindan d8 aurra twi'lek tund polis gen'dai sola tarpals.</p>
+                  <div class="tw-flex tw-items-center tw-py-3">
+                    <svg class="tw-h-6 tw-pr-3 tw-fill-current tw-text-teal-300"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M20 10a10 10 0 1 1-20 0 10 10 0 0 1 20 0zm-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0zm-8 2H5V8h5V5l5 5-5 5v-3z"/>
+                    </svg>
+                    <a href="#" class="tw-text-white bold tw-border-b-2 tw-border-teal-300 hover:tw-text-teal-900">Find out more...</a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </li>
+      <!--end Hoverable Link-->
+
+        </ul>
+      </div>
+    </nav>

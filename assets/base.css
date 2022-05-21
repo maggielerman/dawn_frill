@@ -738,6 +738,18 @@ summary .icon-caret {
   top: calc(50% - 0.2rem);
 }
 
+a {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+a .icon-caret {
+  position: absolute;
+  height: 0.6rem;
+  right: 1.5rem;
+  top: calc(50% - 0.2rem);
+}
+
 summary::-webkit-details-marker {
   display: none;
 }
@@ -2596,6 +2608,12 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__menu-item .icon-caret {
   right: 0.8rem;
+}
+#dropdown-hover01 .icon-caret {
+  right: 0.8rem;
+  flex-shrink: 0;
+  margin-left: 1rem;
+  position: static;
 }
 
 .header__submenu .icon-caret {

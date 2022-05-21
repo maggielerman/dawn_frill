@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         'heading': 'var(--font-heading-family)'
       },
+      colors: {
+        'frill': '#4869FF',
+      },
     },
   },
   plugins: [],
