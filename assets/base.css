@@ -608,7 +608,9 @@ h6:empty {
 }
 
 .link--text:hover {
-  color: rgba(var(--color-foreground), 0.75);
+  /* color: rgba(var(--color-foreground), 0.75); */
+  color: rgb(var(--color-base-accent-1));
+
 }
 
 .link-with-icon {
@@ -701,7 +703,9 @@ details > * {
 
 .underlined-link:hover,
 .customer a:hover {
-  color: rgb(var(--color-link));
+  /* color: rgb(var(--color-link)); */
+  color: rgb(var(--color-base-accent-1));
+
   text-decoration-thickness: 0.2rem;
 }
 
@@ -2531,7 +2535,9 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
+  color: rgb(var(--color-base-accent-1));
+
 }
 
 .header__menu-item span {
@@ -2557,13 +2563,15 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
+  color: rgb(var(--color-base-accent-1));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
 
 .header__menu-item:hover .header__active-menu-item {
   text-decoration-thickness: 0.2rem;
+  color: rgb(var(--color-base-accent-1));
 }
 
 .header__submenu {
@@ -2587,6 +2595,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu .header__submenu {
+  color:  var(--color-base-accent-1);
   background-color: rgba(var(--color-foreground), 0.03);
   padding: 0.5rem;
  /* padding: 20px; */

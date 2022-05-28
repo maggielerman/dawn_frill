@@ -18,7 +18,7 @@
   <ul class="collection-list grid grid--2-col grid--4-col-tablet grid--5-col-desktop" role="list">
     {%- for collection in collections -%}
       <li class="collection-list__item grid__item">
-        {% render 'collection-list-cards', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 5 %}
+        {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 5 %}
       </li>
     {%- endfor -%}
   </ul>
