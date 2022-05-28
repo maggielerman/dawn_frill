@@ -48,10 +48,6 @@
     padding-right: 2.7rem;
   }
 
-  {% comment %} #dropdown01 .list-menu__item
-  {
-    padding-right: 2.7rem;
-  } {% endcomment %}
 
   .list-menu__item {
     display: flex;
@@ -106,13 +102,18 @@
   }
 {%- endstyle -%}
 
-{% assign by_artist = "Shop By Artist" %}
+{% comment %} {% assign by_artist = "Shop By Artist" %}
 {% assign by_subject = "Shop By Subject" %}
 {% assign by_shape = "Shop By Shape" %}
 {% assign gallery_walls = "Curated Gallery Walls & Sets" %}
 {% assign gallery_walls_url  = "/collections/curated-gallery-walls" %}
 {% assign digital_downloads = "Digital Downloads (Print at Home Wall Art)" %}
-{% assign digital_downloads_url = "/collections/print-at-home-wall-art" %}
+{% assign digital_downloads_url = "/collections/print-at-home-wall-art" %} {% endcomment %}
+
+{% liquid
+    assign by_artist = "Shop By Artist" 
+    assign by_subject = "Shop By Subject"
+  %}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
