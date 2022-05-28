@@ -522,10 +522,10 @@
                   </span>  
                   {% render 'icon-caret' %}
                 </a>
-                <div class="tw-py-10 mega-menu tw-mb-16 sm:tw-mb-0 tw-shadow-xl tw-bg-white tw-border tw-border-gray-500">
+                <div class="tw-py-20 mega-menu tw-mb-16 sm:tw-mb-0 tw-shadow-xl tw-bg-white tw-border tw-border-gray-500">
                   <div class="tw-mx-auto tw-w-full tw-flex tw-flex-wrap tw-justify-around ">
                     <div class="tw-w-5/8 tw-grid tw-grid-cols-8">
-                      <ul id="wall-art-by_artist" class="tw-col-span-3 tw-pt-3 tw-border-r">
+                      <ul id="wall-art-by_artist" class="tw-col-span-4 tw-pt-3 tw-border-r tw-pl-10 ">
                         <div class="tw-flex tw-items-center">
                           <h3 class="tw-font-semibold tw-text-gray-600 tw-mb-4">{{ by_artist }}</h3>
                         </div>
@@ -545,13 +545,13 @@
                      
                       </ul>
 
-                      <ul id="wall-art-by_subject" class="tw-col-span-5 tw-pt-3 tw-pl-10 tw-border-r">
+                      <ul id="wall-art-by_subject" class="tw-col-span-4 tw-pt-3 tw-border-r tw-px-10 ">
                         <div class="tw-flex tw-items-center">
                         
                           <h3 class="tw-font-semibold tw-text-gray-600 tw-mb-4">{{ by_subject }}</h3>
 
                         </div>
-                        <div class="tw-columns-2">
+                        <div class="tw-columns-2 ">
                         {%- for collection in collections-%}               
                           <div class="tw-text-left tw-flex tw-items-center">
 
@@ -568,10 +568,10 @@
                       </ul>
                   </div>
                   <div class="tw-w-3/8 tw-py-6 ">
-                    <ul id="wall-art-featured" class="collection-list grid grid--2-col  " role="list">
+                    <ul id="wall-art-featured" class="collection-list grid grid--2-col tw-pt-3 tw-px-10" role="list">
                       {%- for collection in collections -%}
                         {%- if collection.metafields.collection.is_nav == true and collection.metafields.collection.is_featured == true -%}
-                          <li class="collection-list__item grid__item tw-px-4 tw-space-around">
+                          <li class="collection-list__item grid__item tw-px-4 tw-justify-around">
                             {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 5 %}
                           </li>
                         {%- endif -%}
