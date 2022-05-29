@@ -13,6 +13,9 @@ module.exports = {
       'lg': '990px',
     },
     extend: {
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
       fontFamily: {
         'heading': 'var(--font-heading-family)'
       },
