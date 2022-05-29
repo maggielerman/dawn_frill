@@ -1,0 +1,14 @@
+{% assign match = False %}
+{% assign vendor_collection_handle = vendor | handleize | strip | escape %}
+
+{% for collection in collections %}
+	{% if vendor_collection_handle == collection.handle %}
+		{% assign match = true %}
+	{% endif %}
+{% endfor %}
+
+{% if match %}
+	<li class="vendor-list-item"><a href="/collections/{{ vendor_collection_handle }}">{{ vendor }}</a></li>
+{% else %}
+	<li class="vendor-list-item">{{ vendor | link_to_vendor }}</li>
+{% endif %}
