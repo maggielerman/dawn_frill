@@ -1,0 +1,38 @@
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <div class="rte">
+        {{ page.content }}
+      </div>
+      
+      {% assign totalCols = 3 %}
+      {% assign totalItems = shop.vendors | size %}
+      {% assign remainingCols = totalCols %}
+      {% assign remainingItems = totalItems %}
+      {% assign itemsToOutput = remainingItems | times: 1.0 | divided_by: remainingCols | ceil %}
+      
+      <div class="grid">
+        {% for i in (1..totalCols) %}
+          <div class="grid__item medium-up--one-third">
+            <ul>
+              {% for j in (1..itemsToOutput) %}
+              	{% assign ind = totalItems | minus: remainingItems %}
+              	{% include 'vendor-list-item', vendor: shop.vendors[ind] %}
+              	{% assign remainingItems = remainingItems | minus: 1 %}
+              {% endfor %}
+            </ul>
+          </div>
+        {% if remainingItems == 0 %}
+	        {% break %}
+        {% endif %}
+        {% assign remainingCols = remainingCols | minus: 1 %}
+        {% assign itemsToOutput = remainingItems | times: 1.0 | divided_by: remainingCols | ceil %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
