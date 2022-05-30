@@ -25,10 +25,10 @@
     "text_boxes_radius": 0,
     "text_boxes_shadow_horizontal_offset": 0,
     "badge_position": "bottom left",
-    "social_facebook_link": "https://www.facebook.com/hellofrill",
-    "social_pinterest_link": "https://www.pinterest.com/hellofrill",
-    "social_instagram_link": "https://www.instagram.com/shop.frill/",
-    "checkout_logo_image": "shopify://shop_images/Rectangle_8_2_4f5e2f10-d494-4b2f-bde7-8a7d2eb421be.png",
+    "social_facebook_link": "https:\/\/www.facebook.com\/hellofrill",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/hellofrill",
+    "social_instagram_link": "https:\/\/www.instagram.com\/shop.frill\/",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Rectangle_8_2_4f5e2f10-d494-4b2f-bde7-8a7d2eb421be.png",
     "checkout_body_background_color": "#ebebeb",
     "checkout_accent_color": "#4869ff",
     "checkout_button_color": "#4869ff",
@@ -41,7 +41,7 @@
             "settings": {
               "text": "BUY ONE ART PRINT OR POSTER AND GET ONE 25% OFF - GOING ON ALL MONTH LONG!",
               "color_scheme": "accent-1",
-              "link": "shopify://collections/wall-art"
+              "link": "shopify:\/\/collections\/wall-art"
             }
           },
           "c950c89f-3b91-4151-9745-0066577c1c8c": {
@@ -74,11 +74,10 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify://shop_images/2_e7c488fd-0a62-43c0-b937-ca7f99f6d834.png",
+          "logo": "shopify:\/\/shop_images\/2_e7c488fd-0a62-43c0-b937-ca7f99f6d834.png",
           "logo_width": 120,
           "logo_position": "top-center",
           "menu": "main-menu",
-          "mobile-menu": "mobile-menu",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -106,7 +105,7 @@
             "disabled": true,
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
           "fd77ce6c-282b-44c6-993a-ece9692f1025": {
