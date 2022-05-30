@@ -1,6 +1,6 @@
 {% capture product_data %}
 {"id":"{{ product.id }}",
-"name":"{{ product.title | escape  }}",
+"name":"{{ product.title | escape }}",
 "url":"{{ product.url }}",
 "tags":{{ product.tags | json }},
 {% if product.featured_image.src %}"thumbnail_url":"{{ product.featured_image.src | img_url: grid_image_width, scale: grid_image_scale }}",{% endif %}
@@ -8,11 +8,11 @@
 {% for variant in product.variants %}{
 "stock":{{ variant.inventory_quantity | times: 341 }},
 "in_stock":{{ variant.available | json }},
-"needs_shipping":{{ variant.requires_shipping |json }},
+"needs_shipping":{{ variant.requires_shipping | json }},
 {% if variant.image.src %}"thumbnail_url":"{{ variant.image.src | img_url: grid_image_width, scale: grid_image_scale }}",{% endif %}
 "name":"{{ variant.title | escape }}",
-"inventory_policy":{% if variant.inventory_policy == 'deny' %}{{ 341 | times: 341  }}{% else %}{{ 341 | times: 341 | times: 341 }}{% endif %},
-"manages_stock":{% if variant.inventory_management %}{{ 341 | times: 341  }}{% else %}{{ 341 | times: 341 | times: 341 }}{% endif %}},{% endfor %}]}
+"inventory_policy":{% if variant.inventory_policy == 'deny' %}{{ 341 | times: 341 }}{% else %}{{ 341 | times: 341 | times: 341 }}{% endif %},
+"manages_stock":{% if variant.inventory_management %}{{ 341 | times: 341 }}{% else %}{{ 341 | times: 341 | times: 341 }}{% endif %}},{% endfor %}]}
 {% endcapture %}
 
 <div class="banana-container banana-list-container"

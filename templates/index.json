@@ -6,12 +6,12 @@
         "1642769144aaeae633-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MCH024-OakLeavesbyAlphonseMucha_ROOM_1100x_a2989f48-787e-44d3-870b-81df4fee01d3.jpg",
+            "image": "shopify://shop_images/MCH024-OakLeavesbyAlphonseMucha_ROOM_1100x_a2989f48-787e-44d3-870b-81df4fee01d3.jpg",
             "heading": "Art Nouveau",
             "heading_size": "medium",
             "subheading": "",
             "button_label": "Shop Collection",
-            "link": "shopify:\/\/collections\/art-nouveau",
+            "link": "shopify://collections/art-nouveau",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -24,12 +24,12 @@
         "1642769144aaeae633-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GW095-BAUHAUS-ART005.ART007.ART003.ART006.ART002.jpg",
+            "image": "shopify://shop_images/GW095-BAUHAUS-ART005.ART007.ART003.ART006.ART002.jpg",
             "heading": "Modern Art",
             "heading_size": "medium",
             "subheading": "",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/wassily-kandinsky",
+            "link": "shopify://collections/wassily-kandinsky",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": true,
@@ -42,12 +42,12 @@
         "5a115f22-09c9-4f6b-91aa-6af9aad2f42d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JAP069_BambooandrisingsunbyUtagawaKunimaru_Livingroom.jpg",
+            "image": "shopify://shop_images/JAP069_BambooandrisingsunbyUtagawaKunimaru_Livingroom.jpg",
             "heading": "Traditional Japanese Art",
             "heading_size": "medium",
             "subheading": "",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/japanese-art",
+            "link": "shopify://collections/japanese-art",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -86,7 +86,7 @@
         "1642769036ab5301d0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Shop our  selection of carefully curated gallery walls.<\/p>"
+            "text": "<p>Shop our  selection of carefully curated gallery walls.</p>"
           }
         }
       },
@@ -107,7 +107,7 @@
         "508b7867-60e4-4184-955a-d61040e90650": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3256197092_3ps3.jpg",
+            "image": "shopify://shop_images/il_fullxfull.3256197092_3ps3.jpg",
             "image_padding": true
           }
         },
@@ -151,7 +151,7 @@
         "16427767889efc018d-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "16427767889efc018d-2": {
@@ -185,7 +185,7 @@
         "1643034731d385b111-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Egon Schiele (June 12 1890 – Octobe 31r 1918) was an Austrian expressionist painter. He was protégé of Gustav Klimt and blossomed one of the major figurative painters of the early 20th century. <\/p><p><\/p><p>Schiele's work is noted for its intensity and its raw sexuality, and the many self-portraits the artist produced, including nude self-portraits.<\/p>",
+            "text": "<p>Egon Schiele (June 12 1890 – Octobe 31r 1918) was an Austrian expressionist painter. He was protégé of Gustav Klimt and blossomed one of the major figurative painters of the early 20th century. </p><p></p><p>Schiele's work is noted for its intensity and its raw sexuality, and the many self-portraits the artist produced, including nude self-portraits.</p>",
             "text_style": "body"
           }
         },
@@ -193,7 +193,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Art by Egon Schiele",
-            "button_link": "shopify:\/\/collections\/egon-schiele"
+            "button_link": "shopify://collections/egon-schiele"
           }
         }
       },
@@ -203,7 +203,7 @@
         "1643034731d385b111-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SCH014-CrouchingNudeinShoesandBlackStockingsEgonSchiele_FRAME.jpg",
+        "image": "shopify://shop_images/SCH014-CrouchingNudeinShoesandBlackStockingsEgonSchiele_FRAME.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -245,7 +245,7 @@
         "164303523927b4a2aa-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Henri Émile Benoît Matisse December 31 1869 – November 3 1954) was a French draughtsman, printmaker, and sculptor. Known for his use of color, he is best remembered as a painter.<\/p><p><\/p><p>Matisse is commonly regarded, along with Pablo Picasso, as one of the artists who best helped to define the revolutionary developments in the visual arts throughout the opening decades of the twentieth century, responsible for significant developments in painting and sculpture.<\/p>",
+            "text": "<p>Henri Émile Benoît Matisse December 31 1869 – November 3 1954) was a French draughtsman, printmaker, and sculptor. Known for his use of color, he is best remembered as a painter.</p><p></p><p>Matisse is commonly regarded, along with Pablo Picasso, as one of the artists who best helped to define the revolutionary developments in the visual arts throughout the opening decades of the twentieth century, responsible for significant developments in painting and sculpture.</p>",
             "text_style": "body"
           }
         },
@@ -253,7 +253,7 @@
           "type": "button",
           "settings": {
             "button_label": "View Art by Henri Matisse",
-            "button_link": "shopify:\/\/collections\/henri-matisse"
+            "button_link": "shopify://collections/henri-matisse"
           }
         }
       },
@@ -263,7 +263,7 @@
         "164303523927b4a2aa-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dessinsmockup.jpg",
+        "image": "shopify://shop_images/dessinsmockup.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -306,7 +306,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Art Prints & Posters",
-            "button_link_1": "shopify:\/\/collections\/wall-art",
+            "button_link_1": "shopify://collections/wall-art",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -319,8 +319,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
-        "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
+        "image": "shopify://shop_images/woman-hanging-pic02.jpg",
+        "image_2": "shopify://shop_images/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
