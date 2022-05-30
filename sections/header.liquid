@@ -146,8 +146,8 @@
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu list-menu" role="list">
-                    {% if section.settings.mobile_menu != blank %}
-                      {%- for link in section.settings.mobile_menu.links -%}
+                    {% if section.settings.mobile-menu != blank %}
+                      {%- for link in section.settings.mobile-menu.links -%}
                         <li>
                           {%- if link.links != blank -%}
                             
@@ -207,7 +207,7 @@
                           {%- endif -%}
                         </li>
                       {%- endfor -%}
-                    {% comment %} {% else %}
+                    {% else %}
                       {%- for link in section.settings.menu.links -%}
                         <li>
                           {%- if link.links != blank -%}
@@ -267,7 +267,7 @@
                             </a>
                           {%- endif -%}
                         </li>
-                      {%- endfor -%} {% endcomment %}
+                      {%- endfor -%}
                     {%endif%}
                   </ul>
                   <ul class="menu-drawer__menu list-menu" role="list">
@@ -975,9 +975,9 @@
     },
     {
       "type": "link_list",
-      "id": "mobile_menu",
+      "id": "mobile-menu",
       "default": "mobile-menu",
-      "label": "t:sections.header.settings.mobile_menu.label"
+      "label": "t:sections.header.settings.mobile-menu.label"
     },
     {
       "type": "checkbox",
