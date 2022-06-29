@@ -90,6 +90,7 @@
 
             }
 
+
         }
         if(message.message == "review_created" && document.querySelector('.editorify-form-dialog')){
             document.querySelector('.editorify-form-dialog').style.display = 'none';
@@ -117,6 +118,16 @@
             },500)
 
 
+        }
+        if(message.message == "show-message"){
+
+            let messageFrame = document.querySelector('.edititorifyReviewsFormFrame')
+
+            if(messageFrame){
+                let messageSrc = messageFrame.getAttribute('data-src');
+                document.querySelector('.editorify-message').style.display = 'block';
+                formFrame.setAttribute('src', messageSrc || '');
+            }
         }
         if(message.rateString ){
             if(document.querySelector('.editorify-reviews-count-new')){
