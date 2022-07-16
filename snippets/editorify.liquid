@@ -125,8 +125,9 @@
 
             if(messageFrame){
                 let messageSrc = messageFrame.getAttribute('data-src');
+                messageSrc = messageSrc+'&code='+message.code
                 document.querySelector('.editorify-message').style.display = 'block';
-                formFrame.setAttribute('src', messageSrc || '');
+                messageFrame.setAttribute('src', messageSrc || '');
             }
         }
         if(message.rateString ){
