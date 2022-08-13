@@ -80,7 +80,7 @@
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
         "media_size": "medium",
-        "mobile_thumbnails": "show",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 40,
