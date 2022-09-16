@@ -74,7 +74,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/2_e7c488fd-0a62-43c0-b937-ca7f99f6d834.png",
           "logo_width": 120,
           "logo_position": "top-center",
           "menu": "main-menu",
