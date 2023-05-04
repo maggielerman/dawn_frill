@@ -38,6 +38,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "BUY ONE ART PRINT OR POSTER AND GET ONE 25% OFF - GOING ON ALL MONTH LONG!",
               "color_scheme": "accent-1",
@@ -47,8 +48,8 @@
           "c950c89f-3b91-4151-9745-0066577c1c8c": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING ON US ORDERS OF $50 OR MORE",
-              "color_scheme": "inverse",
+              "text": "FREE SHIPPING ON U.S. ORDERS OF $50 OR MORE",
+              "color_scheme": "background-2",
               "link": ""
             }
           },

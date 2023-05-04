@@ -1,7 +1,49 @@
 {
   "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Time for a Wall Refresh?",
+            "heading_size": "medium"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Art Prints & Posters",
+            "button_link_1": "shopify:\/\/collections\/wall-art",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
+        "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "1642769144fd72d1dd": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1642769144aaeae633-0": {
           "type": "slide",
@@ -291,50 +333,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Time for a Wall Refresh?",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Art Prints & Posters",
-            "button_link_1": "shopify:\/\/collections\/wall-art",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/woman-hanging-pic02.jpg",
-        "image_2": "shopify:\/\/shop_images\/WKY001-WhiteCenter1921ArtPoster_ROOM_1100x_e72bb963-fd52-45fc-bdbc-2625197e0564.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "image_banner",
     "1642769144fd72d1dd",
     "1642769036ee43e0aa",
     "collage",
@@ -342,7 +344,6 @@
     "1643034731bb4551c6",
     "featured_products",
     "164303523928bf3058",
-    "1643034734d94087fa",
-    "image_banner"
+    "1643034734d94087fa"
   ]
 }
