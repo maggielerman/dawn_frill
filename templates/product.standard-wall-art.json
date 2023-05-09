@@ -25,6 +25,12 @@
           "settings": {
           }
         },
+        "02bcff06-c510-4104-9724-7d761c5f3622": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% form 'product', product %}\n  <select name=\"id\" id=\"ProductSelect\" class=\"product-single__variants\">\n    {% for variant in product.variants %}\n      {% if variant.available %}\n        <option value=\"{{ variant.id }}\">{{ variant.title }} - {{ variant.price | money }}<\/option>\n      {% else %}\n        <option disabled=\"disabled\">{{ variant.title }} - Sold Out<\/option>\n      {% endif %}\n    {% endfor %}\n  <\/select>\n\n  <div class=\"grouped-variants\">\n    <label for=\"Size\">Size:<\/label>\n    <select name=\"Size\" id=\"Size\">\n      <option value=\"Small\" data-price=\"10.00\">Small (+$10.00)<\/option>\n      <option value=\"Medium\" data-price=\"15.00\">Medium (+$15.00)<\/option>\n      <option value=\"Large\" data-price=\"20.00\">Large (+$20.00)<\/option>\n    <\/select>\n\n    <label for=\"Color\">Color:<\/label>\n    <select name=\"Color\" id=\"Color\">\n      <option value=\"Red\" data-price=\"5.00\">Red (+$5.00)<\/option>\n      <option value=\"Blue\" data-price=\"7.50\">Blue (+$7.50)<\/option>\n      <option value=\"Green\" data-price=\"10.00\">Green (+$10.00)<\/option>\n    <\/select>\n  <\/div>\n\n  <div class=\"product-form__item\">\n    <label>\n      Quantity\n      <input type=\"number\" id=\"Quantity\" name=\"quantity\" value=\"1\" min=\"1\" max=\"{{ product.variants.first.inventory_quantity }}\" pattern=\"[0-9]*\" inputmode=\"numeric\" required>\n    <\/label>\n  <\/div>\n\n  <div class=\"product-form__item\">\n    <button type=\"submit\" name=\"add\" id=\"AddToCart\" class=\"btn\">\n      <span id=\"AddToCartText\">{{ 'products.product.add_to_cart' | t }}<\/span>\n    <\/button>\n  <\/div>\n{% endform %}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -62,12 +68,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "02bcff06-c510-4104-9724-7d761c5f3622": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% form 'product', product %}\n  <select name=\"id\" id=\"ProductSelect\" class=\"product-single__variants\">\n    {% for variant in product.variants %}\n      {% if variant.available %}\n        <option value=\"{{ variant.id }}\">{{ variant.title }}<\/option>\n      {% else %}\n        <option disabled=\"disabled\">{{ variant.title }} - Sold Out<\/option>\n      {% endif %}\n    {% endfor %}\n  <\/select>\n\n  <div class=\"grouped-variants\">\n    <label for=\"Size\">Size:<\/label>\n    <select name=\"Size\" id=\"Size\">\n      <option value=\"Small\">Small<\/option>\n      <option value=\"Medium\">Medium<\/option>\n      <option value=\"Large\">Large<\/option>\n    <\/select>\n\n    <label for=\"Color\">Color:<\/label>\n    <select name=\"Color\" id=\"Color\">\n      <option value=\"Red\">Red<\/option>\n      <option value=\"Blue\">Blue<\/option>\n      <option value=\"Green\">Green<\/option>\n    <\/select>\n  <\/div>\n\n  <div class=\"product-form__item\">\n    <label>\n      Quantity\n      <input type=\"number\" id=\"Quantity\" name=\"quantity\" value=\"1\" min=\"1\" max=\"{{ product.variants.first.inventory_quantity }}\" pattern=\"[0-9]*\" inputmode=\"numeric\" required>\n    <\/label>\n  <\/div>\n\n  <div class=\"product-form__item\">\n    <button type=\"submit\" name=\"add\" id=\"AddToCart\" class=\"btn\">\n      <span id=\"AddToCartText\">{{ 'products.product.add_to_cart' | t }}<\/span>\n    <\/button>\n  <\/div>\n{% endform %}"
-          }
         }
       },
       "block_order": [
@@ -75,13 +75,13 @@
         "title",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
+        "02bcff06-c510-4104-9724-7d761c5f3622",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "share",
         "description",
-        "593f82fc-6761-4c03-9714-33b1e161972b",
-        "02bcff06-c510-4104-9724-7d761c5f3622"
+        "593f82fc-6761-4c03-9714-33b1e161972b"
       ],
       "settings": {
         "enable_sticky_info": true,
