@@ -62,6 +62,7 @@
         },
         "593f82fc-6761-4c03-9714-33b1e161972b": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible row",
             "icon": "perfume",
