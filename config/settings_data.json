@@ -8,6 +8,7 @@
     "colors_background_1": "{{ shop.brand.colors.primary[0].foreground }}",
     "colors_background_2": "{{ shop.brand.colors.secondary[1].background }}",
     "type_header_font": "sans-serif",
+    "heading_scale": 100,
     "type_body_font": "sans-serif",
     "page_width": 1300,
     "spacing_sections": 0,

@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.artist.value }}",
+            "text_style": "body"
+          }
+        },
         "9070316d-c7a5-42ed-ba98-93b6e02206ff": {
           "type": "rating",
           "settings": {
@@ -66,6 +73,7 @@
       "block_order": [
         "vendor",
         "title",
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
         "variant_picker",
