@@ -1,12 +1,12 @@
 {
   "current": {
-    "colors_solid_button_labels": "#121212",
-    "colors_accent_1": "#ebebeb",
-    "colors_accent_2": "#dc5037",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#4869ff",
-    "colors_background_1": "#ffffff",
-    "colors_background_2": "#f3f3f3",
+    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].background }}",
+    "colors_accent_1": "{{ shop.brand.colors.secondary[0].background }}",
+    "colors_accent_2": "{{ shop.brand.colors.secondary[1].background }}",
+    "colors_text": "{{ shop.brand.colors.primary[0].background }}",
+    "colors_outline_button_labels": "{{ shop.brand.colors.primary[0].background }}",
+    "colors_background_1": "{{ shop.brand.colors.primary[0].foreground }}",
+    "colors_background_2": "{{ shop.brand.colors.secondary[1].background }}",
     "type_header_font": "sans-serif",
     "type_body_font": "sans-serif",
     "page_width": 1300,
@@ -25,6 +25,7 @@
     "text_boxes_radius": 0,
     "text_boxes_shadow_horizontal_offset": 0,
     "badge_position": "bottom right",
+    "accent_icons": "text",
     "social_facebook_link": "https:\/\/www.facebook.com\/hellofrill",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/hellofrill",
     "social_instagram_link": "https:\/\/www.instagram.com\/shop.frill\/",
@@ -124,7 +125,7 @@
           "fd77ce6c-282b-44c6-993a-ece9692f1025"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "accent-2",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
