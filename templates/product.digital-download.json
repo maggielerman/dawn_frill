@@ -22,14 +22,6 @@
             "text_style": "body"
           }
         },
-        "3ed60142-c441-49a0-9041-407bde330d65": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.title }}",
-            "text_style": "subtitle"
-          }
-        },
         "9070316d-c7a5-42ed-ba98-93b6e02206ff": {
           "type": "rating",
           "settings": {
@@ -40,6 +32,22 @@
           "settings": {
           }
         },
+        "514f6c44-8e2f-4ffb-bed5-c5d8a8b704c9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "This is a digital product and cannot be returned or exchanged. No physical product will be shipped to you.",
+            "text_style": "body"
+          }
+        },
+        "8e9e7470-8430-4684-8276-07e93161e355": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "After purchasing you will receive instant download files of the artwork in the form of high resolution (300 dpi) jpgs in each of the following sizes:4:5 ratio file = 4x5, 8x10, 16x20, 24x303:4 ratio file = 3x4, 6x,9, 9x12\", 12x16, 18x24, 30x40, 36x482:3 ratio file = 4x6, 8x12, 10x15, 12x18, 16x24, 20x30To learn more about image ratios and large scale printing, check out this great blog article!",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -48,6 +56,7 @@
         },
         "593f82fc-6761-4c03-9714-33b1e161972b": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Fast Shipping",
             "icon": "check_mark",
@@ -57,6 +66,7 @@
         },
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Free Returns",
             "icon": "check_mark",
@@ -72,7 +82,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -93,9 +102,10 @@
         "vendor",
         "title",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
-        "3ed60142-c441-49a0-9041-407bde330d65",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
+        "514f6c44-8e2f-4ffb-bed5-c5d8a8b704c9",
+        "8e9e7470-8430-4684-8276-07e93161e355",
         "variant_picker",
         "593f82fc-6761-4c03-9714-33b1e161972b",
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
