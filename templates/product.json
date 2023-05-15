@@ -44,9 +44,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
-            "icon": "heart",
-            "content": "",
-            "page": "shipping"
+            "icon": "check_mark",
+            "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. <\/p>",
+            "page": ""
           }
         },
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9": {
