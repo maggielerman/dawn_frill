@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.artist.value }}",
+            "text_style": "uppercase"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -12,19 +19,12 @@
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.my_fields.artist.value }}",
-            "text_style": "uppercase"
           }
         },
         "3ed60142-c441-49a0-9041-407bde330d65": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.title }}",
             "text_style": "subtitle"
@@ -90,9 +90,9 @@
         }
       },
       "block_order": [
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "vendor",
         "title",
-        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "3ed60142-c441-49a0-9041-407bde330d65",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
