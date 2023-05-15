@@ -43,7 +43,7 @@
         "593f82fc-6761-4c03-9714-33b1e161972b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Fast Shipping",
             "icon": "check_mark",
             "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. <\/p>",
             "page": ""
@@ -52,7 +52,7 @@
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Return Policy",
+            "heading": "Free & Easy Returns",
             "icon": "check_mark",
             "content": "<p>We have a 30-day, no questions asked return policy, which means you have 30 days after receiving your item to request a return.<br\/><br\/>Starting a return is easy. Just keep  your order number and email address handy and log on to our <a href=\"https:\/\/cartsecure.myshopify.com\/a\/returns\" target=\"_blank\" title=\"Start a Return\">returns page <\/a>and you can start your return in just a few clicks. If you are having difficulty locating your order number or the email address associated with your order, please reach out to us directly as we can assist.<\/p>",
             "page": ""
