@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.facts.sku.value }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -20,6 +13,11 @@
           "settings": {
             "text": "{{ product.metafields.my_fields.artist.value }}",
             "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "3ed60142-c441-49a0-9041-407bde330d65": {
@@ -70,16 +68,17 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.facts.sku.value }}",
+            "text_style": "uppercase"
           }
         },
         "share": {
@@ -90,9 +89,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
+        "description",
         "3ed60142-c441-49a0-9041-407bde330d65",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
@@ -100,8 +99,8 @@
         "593f82fc-6761-4c03-9714-33b1e161972b",
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
         "quantity_selector",
-        "description",
         "buy_buttons",
+        "vendor",
         "share"
       ],
       "settings": {
