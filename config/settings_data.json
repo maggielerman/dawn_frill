@@ -1,12 +1,12 @@
 {
   "current": {
-    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
-    "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
-    "colors_accent_2": "{{ shop.brand.colors.secondary[1].background }}",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#000000",
+    "colors_accent_2": "#000000",
     "colors_text": "{{ shop.brand.colors.primary[0].background }}",
     "colors_outline_button_labels": "{{ shop.brand.colors.primary[0].background }}",
-    "colors_background_1": "{{ shop.brand.colors.primary[0].foreground }}",
-    "colors_background_2": "{{ shop.brand.colors.secondary[1].background }}",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "sans-serif",
