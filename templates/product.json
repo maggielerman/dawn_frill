@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
           "type": "text",
           "settings": {
@@ -15,17 +10,15 @@
             "text_style": "body"
           }
         },
-        "description": {
-          "type": "description",
+        "title": {
+          "type": "title",
           "settings": {
           }
         },
-        "3ed60142-c441-49a0-9041-407bde330d65": {
-          "type": "text",
+        "description": {
+          "type": "description",
           "disabled": true,
           "settings": {
-            "text": "{{ product.title }}",
-            "text_style": "subtitle"
           }
         },
         "9070316d-c7a5-42ed-ba98-93b6e02206ff": {
@@ -68,6 +61,12 @@
           "settings": {
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -80,28 +79,21 @@
             "text": "{{ product.metafields.facts.sku.value }}",
             "text_style": "uppercase"
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
-        "title",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
+        "title",
         "description",
-        "3ed60142-c441-49a0-9041-407bde330d65",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
         "variant_picker",
         "593f82fc-6761-4c03-9714-33b1e161972b",
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
         "quantity_selector",
+        "share",
         "buy_buttons",
-        "vendor",
-        "share"
+        "vendor"
       ],
       "settings": {
         "enable_sticky_info": true,
