@@ -21,6 +21,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .ml-color-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000; /* Add a border to make white swatches visible */
+  margin-right: 5px;
+  vertical-align: middle;
+  border-radius: 50%; /* Optional: makes the swatches circular */
+}
+
 {%- endstyle -%}
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
