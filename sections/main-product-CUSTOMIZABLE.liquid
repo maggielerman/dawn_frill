@@ -605,21 +605,21 @@
                    <!-- CUSTOM -->
                       <p class="line-item-property__field">
                         <label>Radio Buttons</label><br>
-                        <input required class="required" type="radio" name="properties[text-color]" value="option 1"> <span>option 1</span><br>
-                        <input required class="required" type="radio" name="properties[text-color]" value="option 2"> <span>option 2</span><br>
-                        <input required class="required" type="radio" name="properties[text-color]" value="option 3"> <span>option 3</span><br>
-                        <input required class="required" type="radio" name="properties[text-color]" value="other"> other <br>
+                        <input required class="required" type="radio" name="properties[Text Color]" value="option 1"> <span>option 1</span><br>
+                        <input required class="required" type="radio" name="properties[Text Color]" value="option 2"> <span>option 2</span><br>
+                        <input required class="required" type="radio" name="properties[Text Color]" value="option 3"> <span>option 3</span><br>
+                        <input required class="required" type="radio" name="properties[Text Color]" value="other"> other <br>
                       </p>
                     
                       <p class="line-item-property__field" id="colorPickerContainer" style="display:none;">
                         <label for="colorpicker">Color Picker:</label>
-                        <input required class="required" type="color" name="properties[text-color]" value="gray">
+                        <input required class="required" type="color" name="properties[Text Color]" value="gray">
                       </p>
                
                     <script>
                       document.addEventListener('DOMContentLoaded', function() {
                         // Listen for changes on the radio buttons
-                        var radioButtons = document.querySelectorAll('input[type=radio][name="properties[text-color]"]');
+                        var radioButtons = document.querySelectorAll('input[type=radio][name="properties[Text Color]"]');
                         radioButtons.forEach(function(radio) {
                           radio.addEventListener('change', function() {
                             // Show or hide the color picker based on selection
