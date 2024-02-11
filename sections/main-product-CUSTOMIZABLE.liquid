@@ -404,7 +404,7 @@
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
-                 <!-- TEST -->
+                 <!-- CUSTOM -->
                   <p class="line-item-property__field">
                     <label>Radio Buttons</label><br>
                     <input required class="required" type="radio" name="properties[Radio Button]" value="option 1"> <span>option 1</span><br>
@@ -416,7 +416,7 @@
                     <input required class="required" type="color" name="properties[Color Picker]"  value="#0000ff">
                   </p>
 
-                          <!-- TESTEND -->
+                    <!-- CUSTOM END -->
          
                   <div class="product-form__buttons">
                     <button
