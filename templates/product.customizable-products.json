@@ -50,6 +50,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "593f82fc-6761-4c03-9714-33b1e161972b": {
           "type": "collapsible_tab",
           "settings": {
@@ -67,12 +73,6 @@
             "content": "<p>We have a 30-day, no questions asked return policy, which means you have 30 days after receiving your item to start a return.<br\/><br\/>Starting a return is easy. Just drop us a line at help@hellofrill.com and we will get your return started for you.<\/p>",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -84,9 +84,9 @@
         "price",
         "variant_picker",
         "buy_buttons",
+        "share",
         "593f82fc-6761-4c03-9714-33b1e161972b",
-        "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
-        "share"
+        "3fba16d7-5744-4833-9f51-0e41ce02f6e9"
       ],
       "settings": {
         "enable_sticky_info": true,
