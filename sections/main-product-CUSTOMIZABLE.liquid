@@ -624,8 +624,8 @@
                         <textarea required class="required" cols="50" rows="5" id="your-quote" name="properties[Your Quote]" style="background-color:#f2f2f2;"></textarea>
                       </p>
                                           <!-- Custom Color Picker -->
-                      <label for="customColor">Choose a color:</label>
-                      <input type="color" id="customColor" name="properties[Custom Color]" value="#ee0000" list="colorsList" />
+                      <label  for="textColor" class="form__label">Text Color</label>
+                      <input required class="required" type="color" id="textColor" name="properties[Text Color]" value="#ee0000" list="textColorsList" />
                       
                       <!-- Optionally, define a datalist for predefined colors -->
                       <datalist id="colorsList">
@@ -634,7 +634,7 @@
                         <option value="#0000ee" label="Blue"></option>
                         <!-- Add more predefined colors as needed -->
                       </datalist>
-                      <p class="line-item-property__field">
+                      <!-- <p class="line-item-property__field">
                         <label class="form__label">Text Color</label>
                         <input required class="required" type="radio" name="properties[Text Color]" value="black">
                           <span class="ml-color-swatch" style="background-color: black;"></span> <span>Black</span>
@@ -648,9 +648,9 @@
                       <p class="line-item-property__field" id="colorPickerContainer" style="display:none;">
                         <label class="form__label" for="colorpicker">Please choose a custom text color:</label>
                         <input required class="required" type="color" name="properties[Text Color]" value="gray">
-                      </p>
+                      </p> -->
                
-                    <script>
+                    <!-- <script>
                       document.addEventListener('DOMContentLoaded', function() {
                         // Listen for changes on the radio buttons
                         var radioButtons = document.querySelectorAll('input[type=radio][name="properties[Text Color]"]');
@@ -666,7 +666,7 @@
                           });
                         });
                       });
-                    </script>
+                    </script> -->
 
                     <!-- CUSTOM END -->
 
