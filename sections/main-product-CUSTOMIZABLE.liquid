@@ -618,7 +618,17 @@
                         <label class="form__label" for="your-quote">Your Quote</label>
                         <textarea required class="required" cols="50" rows="5" id="your-quote" name="properties[Your Quote]" style="background-color:#f2f2f2;"></textarea>
                       </p>
-                
+                                          <!-- Custom Color Picker -->
+                      <label for="customColor">Choose a color:</label>
+                      <input type="color" id="customColor" name="properties[Custom Color]" value="#ee0000" list="colorsList" />
+                      
+                      <!-- Optionally, define a datalist for predefined colors -->
+                      <datalist id="colorsList">
+                        <option value="#ee0000" label="Red"></option>
+                        <option value="#00ee00" label="Green"></option>
+                        <option value="#0000ee" label="Blue"></option>
+                        <!-- Add more predefined colors as needed -->
+                      </datalist>
                       <p class="line-item-property__field">
                         <label class="form__label">Text Color</label>
                         <input required class="required" type="radio" name="properties[Text Color]" value="black">
