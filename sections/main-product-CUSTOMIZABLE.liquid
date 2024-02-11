@@ -10,23 +10,22 @@
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-  }
-  input[type="color"] {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 5px;
-}
 
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+    input[type="color"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
 {%- endstyle -%}
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -605,19 +604,34 @@
                       disabled
                     >
 
-              
+                    <!-- CUSTOM -->
 
-                    
-                   <!-- CUSTOM -->
-        
-                      <p class="line-item-property__field">
-                        <label class="form__label" for="your-quote">Your Quote</label>
-                        <textarea required class="required" cols="50" rows="5" id="your-quote" name="properties[Your Quote]" style="background-color:#f2f2f2;"></textarea>
-                      </p>
-                                          <!-- Custom Color Picker -->
-                      <label  for="textColor" class="form__label">Text Color</label>
-                      <input required class="required" type="color" id="textColor" name="properties[Text Color]" value="#ee0000" list="textColorsList" />
-                      
+                    <p class="line-item-property__field">
+                      <label class="form__label" for="your-quote">Your Quote</label>
+                      <textarea
+                        required
+                        class="required"
+                        cols="50"
+                        rows="5"
+                        id="your-quote"
+                        name="properties[Your Quote]"
+                        style="background-color:#f2f2f2;"
+                      ></textarea>
+                    </p>
+
+                    <p class="line-item-property__field">
+                      <!-- Custom Color Picker -->
+                      <label for="textColor" class="form__label">Text Color</label>
+                      <input
+                        required
+                        class="required"
+                        type="color"
+                        id="textColor"
+                        name="properties[Text Color]"
+                        value="#ee0000"
+                        list="textColorsList"
+                      >
+
                       <!-- Optionally, define a datalist for predefined colors -->
                       <datalist id="textColorsList">
                         <option value="#ee0000" label="Red"></option>
@@ -625,7 +639,7 @@
                         <option value="#0000ee" label="Blue"></option>
                         <!-- Add more predefined colors as needed -->
                       </datalist>
-
+                    </p>
                     <!-- CUSTOM END -->
 
                     <div class="product-form__buttons">
