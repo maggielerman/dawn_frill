@@ -44,6 +44,12 @@
             "picker_type": "dropdown"
           }
         },
+        "custom_liquid_dHpix7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!--================================================\nSmall text (monogram)\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label for=\"monogram\">Monogram (up to 3 letters)<\/label>\n<input required id=\"monogram\" style=\"width:120px; max-width:100%;\" type=\"text\" name=\"properties[Monogram]\">\n<\/p>\n\n\n<!--================================================\nBig text (message)\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label for=\"custom-message\">Custom message<\/label>\n<textarea required id=\"custom-message\" name=\"properties[Custom message]\"><\/textarea>\n<\/p>\n\n\n<!--================================================\nCheckboxes\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label>Optional features<\/label>\n<input type=\"checkbox\" id=\"Feature-A\" name=\"properties[Optional features - Feature A]\"><label class=\"ep_inline_block\" for=\"Feature-A\">Feature A<\/label><br>\n<input type=\"checkbox\" id=\"Feature-B\" name=\"properties[Optional features - Feature B]\"><label class=\"ep_inline_block\" for=\"Feature-B\">Feature B<\/label><br>\n<input type=\"checkbox\" id=\"Feature-C\" name=\"properties[Optional features - Feature C]\"><label class=\"ep_inline_block\" for=\"Feature-C\">Feature C<\/label>\n<\/p>\n\n\n<!--================================================\nRadio buttons\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label>Choose an option<\/label><br>\n<input required type=\"radio\" name=\"properties[Choose an option]\" value=\"Option 1\"> <span>Option 1<\/span><br>\n<input required type=\"radio\" name=\"properties[Choose an option]\" value=\"Option 2\"> <span>Option 2<\/span><br>\n<input required type=\"radio\" name=\"properties[Choose an option]\" value=\"Option 3\"> <span>Option 3<\/span><br>\n<\/p>\n\n\n<!--================================================\nDrop-down select\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label class=\"ep_block\">Choose an option<\/label>\n<select required id=\"choose-an-option\" name=\"properties[Choose an option]\">\n<option value=\"Option 1\">Option 1<\/option>\n<option value=\"Option 2\">Option 2<\/option>\n<option value=\"Option 3\">Option 3<\/option>\n<\/select>\n<\/p>\n\n\n<!--================================================\nFile Upload\n================================================-->\n\n<p class=\"line-item-property__field\">\n<label for=\"custom_photo\">Photo (JPG or PNG)<\/label>\n<input required id=\"custom_photo\" type=\"file\" name=\"properties[Photo]\">\n<\/p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -83,6 +89,7 @@
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
         "variant_picker",
+        "custom_liquid_dHpix7",
         "buy_buttons",
         "593f82fc-6761-4c03-9714-33b1e161972b",
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
