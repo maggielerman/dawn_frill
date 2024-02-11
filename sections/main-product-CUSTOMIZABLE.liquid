@@ -415,10 +415,13 @@
                     <input required class="required" type="radio" name="properties[text-color]" value="other"> other <br>
 
                   </p>
-                  <p class="line-item-property__field">
-                    <label for="colorpicker">Color Picker:</label>
-                    <input required class="required" type="color" name="properties[Background Color]"  value="#0000ff">
-                  </p>
+                  {% if item.properties['text-color'] == 'other' %}
+                    <p class="line-item-property__field">
+                      <label for="colorpicker">Color Picker:</label>
+                      <input required class="required" type="color" name="properties[Background Color]"  value="#0000ff">
+                    </p>                  
+                  {% endif %}
+                  
 
                  
                 <!-- CUSTOM END -->
