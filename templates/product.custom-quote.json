@@ -24,7 +24,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -55,24 +54,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "593f82fc-6761-4c03-9714-33b1e161972b": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Fast Shipping",
-            "icon": "check_mark",
-            "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. <\/p>",
-            "page": ""
-          }
-        },
-        "3fba16d7-5744-4833-9f51-0e41ce02f6e9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Easy Returns",
-            "icon": "check_mark",
-            "content": "<p>We have a 30-day, no questions asked return policy, which means you have 30 days after receiving your item to start a return.<br\/><br\/>Starting a return is easy. Just drop us a line at help@hellofrill.com and we will get your return started for you.<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -84,9 +65,7 @@
         "price",
         "variant_picker",
         "buy_buttons",
-        "share",
-        "593f82fc-6761-4c03-9714-33b1e161972b",
-        "3fba16d7-5744-4833-9f51-0e41ce02f6e9"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
