@@ -3,15 +3,6 @@
     "main": {
       "type": "main-product-CUSTOMIZABLE",
       "blocks": {
-        "collapsible_tab_3Fm6XX": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How to Order",
-            "icon": "check_mark",
-            "content": "<p><strong>How to order:<\/strong><\/p><ol><li>Choose your desired size and frame options (framing is not available for all products)<br\/><\/li><li>Enter your custom quote in the provided text box.<br\/><\/li><li>Do you want to include the author of the quote? <br\/><\/li><li>Do you want quotation marks included around the quote?<br\/><\/li><li>Add to cart and checkout!<\/li><\/ol>",
-            "page": ""
-          }
-        },
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
           "type": "text",
           "settings": {
@@ -22,6 +13,15 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "collapsible_tab_3Fm6XX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Order",
+            "icon": "check_mark",
+            "content": "<p><strong>How to order:<\/strong><\/p><ol><li>Choose your desired size and frame options (framing is not available for all products)<br\/><\/li><li>Enter your custom quote in the provided text box.<br\/><\/li><li>Do you want to include the author of the quote? <br\/><\/li><li>Do you want quotation marks included around the quote?<br\/><\/li><li>Add to cart and checkout!<\/li><\/ol>",
+            "page": ""
           }
         },
         "description": {
@@ -59,9 +59,9 @@
         }
       },
       "block_order": [
-        "collapsible_tab_3Fm6XX",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "title",
+        "collapsible_tab_3Fm6XX",
         "description",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
