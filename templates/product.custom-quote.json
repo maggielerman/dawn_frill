@@ -24,6 +24,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_DR3MH7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What to Expect After Placing Your Order",
+            "icon": "check_mark",
+            "content": "<ol><li>Approx. 1 business day after ordering, you will receive a digital proof  via the email provided at checkout.<br\/><\/li><li>You have 24 hours to request changes by replying directly to the email. If we have not heard from you, your order will be printed as is.<br\/><\/li><li>You will receive a tracking number and shipping confirmation approx 1-2 business days after the digital proof has been finalized.<\/li><\/ol>",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -62,6 +71,7 @@
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "title",
         "collapsible_tab_3Fm6XX",
+        "collapsible_tab_DR3MH7",
         "description",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
