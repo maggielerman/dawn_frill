@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product-CUSTOMIZABLE",
+      "type": "main-product_CUSTOM-quote",
       "blocks": {
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
           "type": "text",
