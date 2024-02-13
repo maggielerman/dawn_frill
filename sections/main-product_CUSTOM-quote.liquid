@@ -606,7 +606,7 @@
 
                     <!-- CUSTOM -->
 
-                  <div class="line-item-property__field" style="padding-bottom: 20px;">
+                    <div class="line-item-property__field" style="padding-bottom: 20px;">
                       <label class="form__label" for="your-quote">Your Quote</label>
                       <textarea
                         required
@@ -620,14 +620,23 @@
                     </div>
 
                     <div class="line-item-property__field">
-                      <label class="form__label" >Quotation Marks?</label>
-                      <input type="radio" id="yes" name="properties[Quotation Marks]" value="Yes">
-                      <label class="" for="yes">Yes, place quotation marks around the quote.</label> <br>
-                      <input type="radio" id="no" name="properties[Quotation Marks]" value="No">
-                      <label class="" for="no"> No, do not place any quotation marks around the quote.</label>
+                      <label class="form__label">Quotation Marks?</label>
+                       <input type="radio" id="yes" name="properties[Quotation Marks]" value="Yes">
+                      <label class="" for="yes">Yes, place quotation marks around the quote.</label> <br>
+                       <input type="radio" id="no" name="properties[Quotation Marks]" value="No">
+                      <label class="" for="no"> No, do not place any quotation marks around the quote.</label>
                     </div>
 
-                    
+                    <div class="line-item-property__field">
+                      <p>Do you want to include an author?</p>
+                      <input type="radio" id="yes" name="author_name" value="30">
+                      <label for="yes">Yes, include the name of the author:</label>
+                      <input type="text" id="author" name="author_name"><br>
+                      <br>
+
+                      <input type="radio" id="no" name="author_name" value="60">
+                      <label for="no">No, do not include any author.</label><br>
+                    </div>
 
                     <!-- CUSTOM END -->
 
