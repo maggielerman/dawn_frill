@@ -29,7 +29,7 @@
           "settings": {
             "heading": "What to Expect After Placing Your Order",
             "icon": "check_mark",
-            "content": "<ol><li>Approx. 1 business day after ordering, you will receive a digital proof  via the email provided at checkout.<br\/><\/li><li>You have 24 hours to request changes by replying directly to the email. If we have not heard from you, your order will be printed as is.<br\/><\/li><li>You will receive a tracking number and shipping confirmation approx 1-2 business days after the digital proof has been finalized.<\/li><\/ol>",
+            "content": "<p>1. Approx. 1 business day after ordering, you will receive a digital proof  via the email provided at checkout.<\/p><p>2. You have 24 hours to request changes by replying directly to the email. If we have not heard from you, your order will be printed as is.<\/p><p>3. You will receive a tracking number and shipping confirmation approx 1-2 business days after the digital proof has been finalized.<\/p>",
             "page": ""
           }
         },
