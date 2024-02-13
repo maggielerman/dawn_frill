@@ -3,6 +3,15 @@
     "main": {
       "type": "main-product-CUSTOMIZABLE",
       "blocks": {
+        "collapsible_tab_3Fm6XX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Order",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
           "type": "text",
           "settings": {
@@ -15,15 +24,9 @@
           "settings": {
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.facts.sku.value }}",
-            "text_style": "uppercase"
-          }
-        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -57,9 +60,9 @@
         }
       },
       "block_order": [
+        "collapsible_tab_3Fm6XX",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "title",
-        "vendor",
         "description",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
