@@ -20,7 +20,7 @@
           "settings": {
             "heading": "How to Order",
             "icon": "check_mark",
-            "content": "<p><strong>How to order:<\/strong><\/p><ol><li>Choose your desired size and frame options (framing is not available for all products)<br\/><\/li><li>Enter your custom quote in the provided text box.<br\/><\/li><li>Do you want to include the author of the quote? <br\/><\/li><li>Do you want quotation marks included around the quote?<br\/><\/li><li>Add to cart and checkout!<\/li><\/ol>",
+            "content": "<p><strong>1.<\/strong> Choose your desired size and frame options (framing is not available for all products)<\/p><p><strong>2.<\/strong> Enter your custom quote in the provided text box.<\/p><p><strong>3.<\/strong> Do you want to include the author of the quote? <\/p><p><strong>4.<\/strong> Do you want quotation marks included around the quote?<\/p><p><strong>5.<\/strong> Add to cart and checkout!<\/p>",
             "page": ""
           }
         },
