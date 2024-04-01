@@ -43,7 +43,6 @@
     },
     "1642769144fd72d1dd": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1642769144aaeae633-0": {
           "type": "slide",
@@ -105,6 +104,7 @@
         "1642769144aaeae633-1",
         "5a115f22-09c9-4f6b-91aa-6af9aad2f42d"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -187,7 +187,7 @@
         "16427767889efc018d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe now and get 15% off your next order!"
+            "heading": "Subscribe now and get 10% off your next order!"
           }
         },
         "16427767889efc018d-1": {
