@@ -34,7 +34,6 @@
         },
         "514f6c44-8e2f-4ffb-bed5-c5d8a8b704c9": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "This is a digital product and cannot be returned or exchanged. No physical product will be shipped to you.",
             "text_style": "body"
