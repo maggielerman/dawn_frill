@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.artist.value }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "9070316d-c7a5-42ed-ba98-93b6e02206ff": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "593f82fc-6761-4c03-9714-33b1e161972b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fast Shipping",
+            "icon": "check_mark",
+            "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. <\/p>",
+            "page": ""
+          }
+        },
+        "3fba16d7-5744-4833-9f51-0e41ce02f6e9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Easy Returns",
+            "icon": "check_mark",
+            "content": "<p>We have a 14-day return policy, which means you have 14 days after receiving your item to start a return.<br\/><br\/>Starting a return is easy. Just drop us a line at cs@hellofrill.com and we will get your return started for you.<\/p><p><\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">View our return pollicy<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.facts.sku.value }}",
+            "text_style": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
+        "title",
+        "description",
+        "9070316d-c7a5-42ed-ba98-93b6e02206ff",
+        "price",
+        "variant_picker",
+        "593f82fc-6761-4c03-9714-33b1e161972b",
+        "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
+        "quantity_selector",
+        "share",
+        "buy_buttons",
+        "vendor"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "editorify_section_widget": {
+      "type": "editorify_section_widget",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "editorify_section_widget"
+  ]
+}
