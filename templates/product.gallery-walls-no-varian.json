@@ -17,7 +17,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -67,17 +66,17 @@
             "share_label": "Share"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.facts.sku.value }}",
             "text_style": "uppercase"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
           }
         }
       },
@@ -92,8 +91,8 @@
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
         "quantity_selector",
         "share",
-        "buy_buttons",
-        "vendor"
+        "vendor",
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
