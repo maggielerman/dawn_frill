@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "judge_me_reviews_preview_badge_Lg7mQn": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d": {
           "type": "text",
           "settings": {
@@ -17,6 +12,11 @@
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_Lg7mQn": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -40,6 +40,12 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "593f82fc-6761-4c03-9714-33b1e161972b": {
@@ -72,14 +78,9 @@
             "share_label": "Share"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.facts.sku.value }}",
             "text_style": "uppercase"
@@ -87,18 +88,18 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_preview_badge_Lg7mQn",
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "title",
+        "judge_me_reviews_preview_badge_Lg7mQn",
         "description",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
         "variant_picker",
+        "buy_buttons",
         "593f82fc-6761-4c03-9714-33b1e161972b",
         "3fba16d7-5744-4833-9f51-0e41ce02f6e9",
         "quantity_selector",
         "share",
-        "buy_buttons",
         "vendor"
       ],
       "settings": {
