@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].background }}",
-    "colors_accent_1": "{{ shop.brand.colors.primary[0].foreground }}",
+    "colors_solid_button_labels": "{{ shop.brand.colors.primary[0].foreground }}",
+    "colors_accent_1": "{{ shop.brand.colors.primary[0].background }}",
     "colors_accent_2": "#000000",
     "colors_text": "{{ shop.brand.colors.secondary[1].background }}",
     "colors_outline_button_labels": "{{ shop.brand.colors.primary[0].background }}",
