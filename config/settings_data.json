@@ -88,7 +88,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 190,
+          "logo_width": 250,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
