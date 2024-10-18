@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,8 +25,15 @@
           }
         },
         "judge_me_reviews_preview_badge_Lg7mQn": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
+          }
+        },
+        "text_H4yXja": {
+          "type": "text",
+          "settings": {
+            "text": "Unframed. Printed in-house on archival heavyweight matte paper, on wide format Canon professional series fine art pigment-based printers.",
+            "text_style": "body"
           }
         },
         "description": {
@@ -53,7 +69,7 @@
           "settings": {
             "heading": "Fast Shipping",
             "icon": "check_mark",
-            "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. <\/p>",
+            "content": "<p>Free standard shipping on U.S. orders of $50 or more.  Please allow 1-2 days for order processing. Orders typically arrive 4-7 days after dispatch. </p>",
             "page": ""
           }
         },
@@ -62,7 +78,7 @@
           "settings": {
             "heading": "Easy Returns",
             "icon": "check_mark",
-            "content": "<p>We have a 14-day return policy, which means you have 14 days after receiving your item to start a return.<br\/><br\/>Starting a return is easy. Just drop us a line at cs@hellofrill.com and we will get your return started for you.<\/p><p><\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">View our return pollicy<\/a>.<\/p>",
+            "content": "<p>We have a 14-day return policy, which means you have 14 days after receiving your item to start a return.<br/><br/>Starting a return is easy. Just drop us a line at cs@hellofrill.com and we will get your return started for you.</p><p></p><p><a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">View our return pollicy</a>.</p>",
             "page": ""
           }
         },
@@ -80,7 +96,6 @@
         },
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.facts.sku.value }}",
             "text_style": "uppercase"
@@ -91,6 +106,7 @@
         "f33a2f76-011b-4813-bb9f-6b21d3ffd40d",
         "title",
         "judge_me_reviews_preview_badge_Lg7mQn",
+        "text_H4yXja",
         "description",
         "9070316d-c7a5-42ed-ba98-93b6e02206ff",
         "price",
@@ -117,7 +133,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_hCnYn4": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -146,18 +162,18 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_zQaXpp": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
         },
         "judge_me_reviews_medals_ggTrrN": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "judge_me_reviews_verified_badge_7eQFgF": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
